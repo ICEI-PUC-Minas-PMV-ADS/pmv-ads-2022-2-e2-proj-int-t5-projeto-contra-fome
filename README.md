@@ -1,23 +1,27 @@
-# TÍTULO DO PROJETO
+# PROJETO CONTRA FOME
 
-`CURSO`
+`Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`PROJETO: DESENVOLVIMENTO DE UMA APLICAÇÃO INTERATIVA`
 
-`SEMESTRE`
+`SEGUNDO SEMESTRE DE 2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O Objetivo Geral deste presente trabalho é apresentar soluções para o desenvolvimento para aplicações interativas, no intuito de ajudar instituições na arrecadação de alimentos.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Iugor Sette Pereira
+* Gabriel Aston Ferreira Costa
+* Gilvimar Vieira Perdigao
+* Guilherme de Sousa Araújo
+* João Paulo Faria do Nascimento
+* Laura Santos Andrade
+* Silvia Cristina de Oliveira Teixeira
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo Jeunon De Alencar
 
 ## Instruções de utilização
 
