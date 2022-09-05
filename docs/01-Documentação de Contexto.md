@@ -7,7 +7,18 @@ Muitas pessoas procuram formas de conseguir auxiliar outras doando alimentos, po
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O Objetivo Geral deste presente trabalho é apresentar soluções para o desenvolvimento para aplicações interativas, no intuito de ajudar instituições na arrecadação de alimentos.
+
+Como Objetivos Específicos, pode ressaltar:
+
+·     Ser uma alternativa para pessoas que queiram doar à instituições que possam receber alimentos;
+·     Fornecer funcionalidades que permitam interagir com as pessoas sensibilizadas a doar alimentos, seja por meio de doação presencial ou por meio financeiro. (Débito automático em conta, boleto bancário, PIX, Cartão de Crédito).
+·         Indicar ao doador a instituição que foi contemplada com sua doação;
+·         Mostrar ao doador onde foi parar sua doação;
+·         Mostrar quanto foi arrecadado para uma maior transparência;
+·         Permitir um canal de comunicação entre as instituições e os doadores.
+
+
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
