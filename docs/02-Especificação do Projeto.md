@@ -135,19 +135,19 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As restrições podem ser explicadas como tarefas que limitam e comprometem a execução e o desenvolvimento do projeto, servindo como marco delimitador daquilo que precisará ser realizado para que o projeto seja considerado pronto.  
+
+ A tabela abaixo, apresenta as seguintes restrições do projeto. 
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O site deve restringir as tecnologias de Front-End e Back-End, podendo conter API’s.  |
+|02| O site deve ter a homologação das fases de testes (QA) e operação assistida antes do processo de subida para produção.      |
+|03| O site deve conter a documentação técnica (Solution Design Document) para facilitar a equipe de suporte em futuros ajustes no código.  |
+|04| O site deverá ficar restrito a um único idioma, que será o “pt-br” (português).        |
+|05| O site deve ser entregue até o dia 11/12/2022.|
+|06| O site deve ser publicado no GitHub.       |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
