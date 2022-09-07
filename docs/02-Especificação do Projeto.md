@@ -103,17 +103,17 @@ A tabela a seguir apresenta os requisitos funcionais do projeto, identificando s
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve apresentar imagens que auxiliem o entendimento do leitor para cada assunto exposto no corpo da página.  | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-003| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-004| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-005| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-006| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-007| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-008| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-009| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-010| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-011| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-001| O site deve apresentar imagens que auxiliem o entendimento do leitor para cada assunto exposto no corpo da página.  | MÉDIA | 
+|RF-002|O site deve apresentar uma aba no cabeçalho com os contatos do site contendo telefone, Whatsapp, Instagram, e-mail.   | MÉDIA |
+|RF-003| O site deve apresentar a funcionalidade que permita o usuário alterar o tamanho da letra.   | MÉDIA | 
+|RF-004| O site deve apresentar a funcionalidade de modificar o tamanho da imagem através da tecla ALT.    | MÉDIA |
+|RF-005| O site deve permitir visualizar as informações de contatos da(s) pessoa(s) que criaram o site e o mantém.  | BAIXA | 
+|RF-006| O site deve apresentar na janela dos filtros de pesquisa a funcionalidade de selecionar o estado e cidade, a aplicação deve possibilitar clicar  no botão “Buscar” e aparecer todos os endereços da cidade X que recebam os alimentos.   |ALTA |
+|RF-007| O sistema deve apresentar a informação de que não existe endereço cadastrado quando o local para doação de mantimentos for inexistente. | ALTA | 
+|RF-008| O site deve apresentar uma aba no cabeçalho para o usuário acessar e/ou criar uma conta. A aplicação deve permitir que dentro da conta do usuário, aparecer as opções de criar novo ponto de recebimento de alimentos e (excluir ou editar) os pontos já cadastrados.    | ALTA |
+|RF-009| O site deve conter um formulário de cadastro de novos lugares que recebem as doações com os campos: estado, cidade, bairro, rua, número, nome da pessoa que receberá os alimentos.  | ALTA | 
+|RF-010| O site deve apresentar em todas as páginas, no footer, a logo marca oficial, políticas de privacidade e termos de uso.  | ALTA |
+|RF-011| O site deve colher o aceite do usuário para os termos de Política de Cookies / Privacidade, flutuante com alinhamento vertical inferior, e horizontal ao centro. | BAIXA | 
 
 
 ### Requisitos não Funcionais
