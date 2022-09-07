@@ -130,7 +130,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 |RNF-008| O site deve ter pontuação acima de 50 no requisito “Desempenho”, verificado pelo Lighthouse no navegador Google Chrome.  | MÉDIA |
 |RNF-009| O site deve ter pontuação acima de 50 no requisito “Práticas Recomendadas”, verificado pelo Lighthouse no navegador Google Chrome.  | MÉDIA | 
 |RNF-010| O site deve ter pontuação acima de 70 no requisito “Acessibilidade”, verificado pelo Lighthouse no navegador Google Chrome.  | MÉDIA |
-|NRF-011| O site deve ter pontuação acima de 60 no requisito “SEO”, verificado pelo Lighthouse no navegador Google Chrome. | MÉDIA | 
+|RNF-011| O site deve ter pontuação acima de 60 no requisito “SEO”, verificado pelo Lighthouse no navegador Google Chrome. | MÉDIA | 
 
 
 ## Restrições
