@@ -52,6 +52,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
     <td></td>
 </tr>
 <tr>
+    <th rowspan="2"><img src="./img/juares.png" width="900"></th>
     <td colspan="2" align="right"><b>Juarez</b></td>
 </tr>
 <tr>
