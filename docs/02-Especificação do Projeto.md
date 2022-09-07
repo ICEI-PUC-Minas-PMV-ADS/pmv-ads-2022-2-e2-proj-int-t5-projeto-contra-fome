@@ -23,6 +23,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
  <br><br>       
     </td> 
+    <br>
     <td><b>Em relação ao projeto: </b> Disse que usaria um site ou aplicativo que ajudasse pessoas em vulnerabilidade social a encontrarem pontos de distribuição gratuita de alimentos e refeições. O ponto de distribuição gratuita de alimentos deverá fornecer pontos de coleta para doações de mantimentos próximos a sua residência.
     </td>  
 </tr>
@@ -34,7 +35,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
     <td></td>
 </tr>
 <tr>
-    <th rowspan="2"><img src="./img/carlos.jpg" width="800"></th> 
+    <th rowspan="2"><img src="./img/carlos.jpg" width="900"></th> 
     <td colspan="2" align="right"><b>Carlos</b></td>
 </tr>
 <tr>
