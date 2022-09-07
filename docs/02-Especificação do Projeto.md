@@ -95,8 +95,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ## Requisitos
 
-## Requisitos
-
 A tabela a seguir apresenta os requisitos funcionais do projeto, identificando suas respectivas prioridades de entrega.
 
 ### Requisitos Funcionais
