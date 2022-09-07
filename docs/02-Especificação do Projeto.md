@@ -29,7 +29,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 </tr>
 </table>
 
-<table border="1" width="50%">
+<table border="1" width="70%">
 <tr>
     <th></th>
     <td></td>
