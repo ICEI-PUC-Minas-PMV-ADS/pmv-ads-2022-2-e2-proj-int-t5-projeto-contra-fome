@@ -53,7 +53,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 </tr>
 <tr>
     <th rowspan="2"><img src="./img/joaopedro.png" width="800"></th>
-    <td colspan="2" align="right"><b>Juarez</b></td>
+    <td colspan="2" align="center"><b>Juarez</b></td>
 </tr>
 <tr>
     <td><b>Idade:</b> 15 <br><br> <b>Dificuldades:</b> Morador da periferia e ativista, sente que precisa fazer algo para amenizar o sofrimento da população em situação de vulnerabilidade social. Sente que precisa de um site que crie um mapa contendo pontos de mobilização social, que receba doações de alimentos e itens de necessidade básica.
@@ -70,7 +70,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 </tr>
 <tr>
     <th rowspan="2"><img src="./img/Barbaraa.jpg" width="400"></th>
-    <td colspan="2" align="right"><b>Barbara</b></td>
+    <td colspan="2" align="center"><b>Barbara</b></td>
 </tr>
 <tr>
     <td><b>Idade:</b> 60 <br><br> <b>Dificuldades:</b> Precisa de um site seguro e transparente para realizar doações financeiras a uma instituição que distribui mantimentos.
