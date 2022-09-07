@@ -92,8 +92,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Para ter maior chance de uma ninhada nesse mesmo traço de personalidade.| Para ajudar pessoas em vulnerabilidade social|
 |Carlos      | Pesquisar por locais próximos à minha residência e ao meu trabalho , para que eu possa doar alimentos                | Sente que necessita ajudar a combater a fome no Brasil.|
 |Juarez |Um site que contenha um mapa com pontos de mobilização social e que receba doações de alimentos e itens de necessidade básica.       | Sente que precisa ajudar as pessoas que possuem vulnerabilidade social , principalmente realizando doações de itens de necessidade básica |
-|Barbara |Um site seguro e transparente para realizar doações financeiras a uma instituição que distribui mantimentos.
-| Ajudar o próximo através de doações financeiras|
+|Barbara |Um site seguro e transparente para realizar doações financeiras a uma instituição que distribui mantimentos.| Ajudar o próximo através de doações financeiras|
 
 ## Requisitos
 
