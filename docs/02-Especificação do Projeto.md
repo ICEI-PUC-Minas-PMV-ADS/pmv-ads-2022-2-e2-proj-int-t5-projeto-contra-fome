@@ -104,8 +104,7 @@ A tabela a seguir apresenta os requisitos funcionais do projeto, identificando s
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| O site deve apresentar imagens que auxiliem o 
-entendimento do leitor para cada assunto exposto 
-no corpo da página.  | ALTA | 
+entendimento do leitor para cada assunto exposto no corpo da página.  | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
 |RF-003| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-004| Emitir um relatório de tarefas no mês   | MÉDIA |
