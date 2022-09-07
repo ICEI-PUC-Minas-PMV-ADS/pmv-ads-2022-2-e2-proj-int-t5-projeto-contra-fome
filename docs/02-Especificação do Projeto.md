@@ -41,6 +41,22 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
     </td>  
 </tr>
 
+<table border="1" width="70%">
+<tr>
+    <th></th>
+    <td></td>
+</tr>
+<tr>
+    <td colspan="2" align="right"><b>Juarez</b></td>
+</tr>
+<tr>
+    <td><b>Idade:</b> 15 <br><br> <b>Dificuldades:</b> Morador da periferia e ativista, sente que precisa fazer algo para amenizar o sofrimento da população em situação de vulnerabilidade social. Sente que precisa de um site que crie um mapa contendo pontos de mobilização social, que receba doações de alimentos e itens de necessidade básica.
+ <br><br>     
+    </td> 
+    <td> <b>Em relação ao projeto:</b> Ficou super interessado e disse que usaria um aplicativo web que fornecesse ferramentas que viabilizassem a procura de pontos de coleta de doações.
+    </td>  
+</tr>
+
 
 
 </table>
