@@ -24,4 +24,4 @@ A transparência deste processo segue como uma premissa para mostrar que não ha
 
 ## Público-Alvo
 
-Embora a criação de um site, indicando os locais de doação, auxilie as pessoas que queiram  ajudar de alguma forma (seja com alimentos, roupas ou até financeiramente), o foco do projeto está nas pessoas que buscam doar produtos alimentícios não perecíveis. 
+Embora a criação de um site, indicando os locais de doação, auxilie as pessoas que queiram  ajudar de alguma forma (seja com alimentos, produtos de higiene, roupas ou até financeiramente), o foco do projeto está nas pessoas que buscam doar produtos alimentícios não perecíveis. 
