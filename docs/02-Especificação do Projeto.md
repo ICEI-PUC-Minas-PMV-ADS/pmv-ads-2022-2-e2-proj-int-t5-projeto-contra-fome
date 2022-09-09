@@ -76,7 +76,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
     <td><b>Idade:</b> 60 <br><br> <b>Dificuldades:</b> Precisa de um site seguro e transparente para realizar doações financeiras a uma instituição que distribui mantimentos.
  <br><br>     
     </td> 
-    <td> <b>Em relação ao projeto:</b> Disse que usaria um site que fosse transparente e mostrasse para onde a sua doação estava indo.
+    <td> <b>Em relação ao projeto:</b> Disse que usaria um site que fosse transparente e mostrasse para onde a sua doação estivesse indo.
     </td>  
 </tr>
 </table>
