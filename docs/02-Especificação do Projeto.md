@@ -101,18 +101,22 @@ A tabela a seguir apresenta os requisitos funcionais do projeto, identificando s
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve apresentar imagens que auxiliem o entendimento do leitor para cada assunto exposto no corpo da página.  | MÉDIA | 
-|RF-002|O site deve apresentar uma aba no cabeçalho com os contatos do site contendo telefone, Whatsapp, Instagram, e-mail.   | MÉDIA |
-|RF-003| O site deve apresentar a funcionalidade que permita o usuário alterar o tamanho da letra.   | MÉDIA | 
-|RF-004| O site deve apresentar a funcionalidade de modificar o tamanho da imagem através da tecla ALT.    | MÉDIA |
-|RF-005| O site deve permitir visualizar as informações de contatos da(s) pessoa(s) que criaram o site e o mantém.  | BAIXA | 
-|RF-006| O site deve apresentar na janela dos filtros de pesquisa a funcionalidade de selecionar o estado e cidade, a aplicação deve possibilitar clicar  no botão “Buscar” e aparecer todos os endereços da cidade X que recebam os alimentos.   |ALTA |
-|RF-007| O sistema deve apresentar a informação de que não existe endereço cadastrado quando o local para doação de mantimentos for inexistente. | ALTA | 
-|RF-008| O site deve apresentar uma aba no cabeçalho para o usuário acessar e/ou criar uma conta. A aplicação deve permitir que dentro da conta do usuário, aparecer as opções de criar novo ponto de recebimento de alimentos e (excluir ou editar) os pontos já cadastrados.    | ALTA |
-|RF-009| O site deve conter um formulário de cadastro de novos lugares que recebem as doações com os campos: estado, cidade, bairro, rua, número, nome da pessoa que receberá os alimentos.  | ALTA | 
-|RF-010| O site deve apresentar em todas as páginas, no footer, a logo marca oficial, políticas de privacidade e termos de uso.  | ALTA |
-|RF-011| O site deve colher o aceite do usuário para os termos de Política de Cookies / Privacidade, flutuante com alinhamento vertical inferior, e horizontal ao centro. | BAIXA | 
-
+|RF-001| O sistema deve permitir que a instiuição se cadastre na aplicação  | ALTA | 
+|RF-002| o sistema deve permitir que a instituição valide o login | ALTA |
+|RF-003| O sistema deve permitir que a instituição altere a senha do login   | ALTA | 
+|RF-004| O sistema deve permitir que a instituição  crie um ponto de coleta de doações  | ALTA |
+|RF-005| O sistema deve permitir que a instituição edite um ponto de coleta de doações  | MÉDIA | 
+|RF-006| O sistema deve permitir que a instituição exclua um ponto de coleta de doações  | MÉDIA| 
+|RF-007| O sistema deve apresentar funcionalidades para que as instituições e o mantenedor do site possam gerenciar as doações.   |ALTA |
+|RF-008| O sistema deve apresentar funcionalidades para que as instituições e o mantenedor do site possam gerenciar as campanhas de doações.   |ALTA |
+|RF-009| O sistema deve conter uma notificação para confirmar o recebimento de doações | ALTA | 
+|RF-010| O sistema deve apresentar uma funcionalidade para a instituição solicitar doações | ALTA | 
+|RF-011| O sistema deve apresentar a possibilidade do próprio usuário entregar as doações   | BAIXA|
+|RF-012| O sistema deve apresentar a possibilidade de buscar locais de doação   | ALTA |
+|RF-013|O sistema deve conter uma página de "Fale com Nosso Encarregado de Dados" (DPO) atendendo à LGPD, contendo um formulário colhendo nome, e-mail, telefone, assunto e texto  | BAIXA | 
+|RF-014| O sistema deve  permitir que o doador seja anônimo  | ALTA |
+|RF-015| O sistema deve permitir que o usuário realize suas doações.| ALTA | 
+|RF-016| O sistema deve permitir que as doações possam ser feitas com cartão de crédito através de um sistema de pagamento| ALTA | 
 
 ### Requisitos não Funcionais
 
