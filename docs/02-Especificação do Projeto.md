@@ -76,7 +76,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
     <td><b>Idade:</b> 60 <br><br> <b>Dificuldades:</b> Precisa de um site seguro e transparente para realizar doações financeiras a uma instituição que distribui mantimentos.
  <br><br>     
     </td> 
-    <td> <b>Em relação ao projeto:</b> Disse que usaria um site que fosse transparente e mostrasse para onde a sua doação estava indo.
+    <td> <b>Em relação ao projeto:</b> Disse que usaria um site que fosse transparente e mostrasse para onde a sua doação estivesse indo.
     </td>  
 </tr>
 </table>
@@ -84,11 +84,11 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Isabella  | Um Site que forneça pontos de coleta para doações de mantimentos próximo a minha residência| Para ter maior chance de uma ninhada nesse mesmo traço de personalidade.| Para ajudar pessoas em vulnerabilidade social|
+|Isabella  | Um Site que forneça pontos de coleta para doações de mantimentos próximo a minha residência|  Para ajudar pessoas em vulnerabilidade social| 
 |Carlos      | Pesquisar por locais próximos à minha residência e ao meu trabalho , para que eu possa doar alimentos                | Sente que necessita ajudar a combater a fome no Brasil.|
 |Juarez |Um site que contenha um mapa com pontos de mobilização social e que receba doações de alimentos e itens de necessidade básica.       | Sente que precisa ajudar as pessoas que possuem vulnerabilidade social , principalmente realizando doações de itens de necessidade básica |
 |Barbara |Um site seguro e transparente para realizar doações financeiras a uma instituição que distribui mantimentos.| Ajudar o próximo através de doações financeiras|
@@ -130,7 +130,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 |RNF-008| O site deve ter pontuação acima de 50 no requisito “Desempenho”, verificado pelo Lighthouse no navegador Google Chrome.  | MÉDIA |
 |RNF-009| O site deve ter pontuação acima de 50 no requisito “Práticas Recomendadas”, verificado pelo Lighthouse no navegador Google Chrome.  | MÉDIA | 
 |RNF-010| O site deve ter pontuação acima de 70 no requisito “Acessibilidade”, verificado pelo Lighthouse no navegador Google Chrome.  | MÉDIA |
-|NRF-011| O site deve ter pontuação acima de 60 no requisito “SEO”, verificado pelo Lighthouse no navegador Google Chrome. | MÉDIA | 
+|RNF-011| O site deve ter pontuação acima de 60 no requisito “SEO”, verificado pelo Lighthouse no navegador Google Chrome. | MÉDIA | 
 
 
 ## Restrições
