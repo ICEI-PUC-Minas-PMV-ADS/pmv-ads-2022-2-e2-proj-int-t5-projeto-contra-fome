@@ -11,7 +11,7 @@ O Objetivo Geral deste presente trabalho é apresentar soluções para o desenvo
 Como Objetivos Específicos, pode ressaltar:
 
 - Ser uma alternativa para pessoas que queiram doar à instituições que possam receber alimentos;
-- Fornecer funcionalidades que permitam interagir com as pessoas sensibilizadas a doar alimentos, seja por meio de doação presencial ou por meio financeiro. (Boleto bancário e Cartão de Crédito).
+- Fornecer funcionalidades que permitam interagir com as pessoas sensibilizadas a doar alimentos, seja por meio de doação presencial ou por meio financeiro. (Boleto bancário, PIX e Cartão de Crédito).
 - Indicar ao doador a instituição que foi contemplada com sua doação;
 -  Mostrar ao doador onde foi parar sua doação;
 - Mostrar quanto foi arrecadado para uma maior transparência;
