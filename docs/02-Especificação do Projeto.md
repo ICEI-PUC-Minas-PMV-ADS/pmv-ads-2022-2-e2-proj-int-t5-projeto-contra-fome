@@ -160,7 +160,6 @@ As restrições podem ser explicadas como tarefas que limitam e comprometem a ex
 ## Diagrama de Casos de Uso
 
 <tr>
-    <th rowspan="2"><img src="./img/UML.png" width="800"></th>
-    
+    <th rowspan="2"><img src="./img/CasoDeUsoUMLfinal.png" width="800"></th>    
 </tr>
 
