@@ -137,8 +137,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 |RNF-011| O site deve apresentar a funcionalidade que permita o usuário alterar o tamanho da letra. | MÉDIA | 
 |RNF-012| O site deve apresentar imagens que auxiliem o entendimento do leitor para cada assunto exposto no corpo da página. | MÉDIA | 
 |RNF-013| O site deve apresentar a funcionalidade de modificar o tamanho da imagem através da tecla ALT.  | MÉDIA | 
-|RNF-014| O site deve permitir visualizar as informações de contatos da(s) pessoa(s) que criaram o site e o mantém. 
-| MÉDIA | 
+|RNF-014| O site deve permitir visualizar as informações de contatos da(s) pessoa(s) que criaram o site e o mantém. | MÉDIA | 
 |RNF-015| O site deve apresentar em todas as páginas, no footer, a logo marca oficial, políticas de privacidade e termos de uso. | MÉDIA | 
 
 
