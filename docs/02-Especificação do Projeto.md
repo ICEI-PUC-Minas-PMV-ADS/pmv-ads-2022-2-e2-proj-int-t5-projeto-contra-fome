@@ -113,10 +113,11 @@ A tabela a seguir apresenta os requisitos funcionais do projeto, identificando s
 |RF-010| O sistema deve apresentar uma funcionalidade para a instituição solicitar doações | ALTA | 
 |RF-011| O sistema deve apresentar a possibilidade do próprio usuário entregar as doações   | BAIXA|
 |RF-012| O sistema deve apresentar a possibilidade de buscar locais de doação   | ALTA |
-|RF-013|O sistema deve conter uma página de "Fale com Nosso Encarregado de Dados" (DPO) atendendo à LGPD, contendo um formulário colhendo nome, e-mail, telefone, assunto e texto  | BAIXA | 
-|RF-014| O sistema deve  permitir que o doador seja anônimo, escolhendo o banco ou a chave pix para realizar o depósito sem identificar-se  | ALTA |
-|RF-015| O sistema deve permitir que o usuário realize suas doações.| ALTA | 
-|RF-016| O sistema deve permitir que as doações possam ser feitas com cartão de crédito através de um sistema de pagamento| ALTA | 
+|RF-013| O sistema deve apresentar a possibilidade de mostrar os locais de doação   | ALTA |
+|RF-014|O sistema deve conter uma página de "Fale com Nosso Encarregado de Dados" (DPO) atendendo à LGPD, contendo um formulário colhendo nome, e-mail, telefone, assunto e texto  | BAIXA | 
+|RF-015| O sistema deve  permitir que o doador seja anônimo, escolhendo o banco ou a chave pix para realizar o depósito sem identificar-se  | ALTA |
+|RF-016| O sistema deve permitir que o usuário realize suas doações.| ALTA | 
+|RF-017| O sistema deve permitir que as doações possam ser feitas com cartão de crédito através de um sistema de pagamento| ALTA | 
 
 ### Requisitos não Funcionais
 
