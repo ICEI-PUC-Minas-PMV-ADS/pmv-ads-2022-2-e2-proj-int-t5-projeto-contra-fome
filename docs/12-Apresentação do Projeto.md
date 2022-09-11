@@ -8,6 +8,11 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 Nome e marca do projeto
 
+## Apresentação da proposta do projeto
+
+- [Vídeo da apresentação](https://watch.screencastify.com/v/AYUAIIitckKH32sdQ4BX)
+- [Apresentação em PowerPoint](https://docs.google.com/presentation/d/1nNo7Hn577uaUssDVubEn7CwsB1LnJSVkEfQszrZx2nA/edit?usp=sharing)
+
 ## Identidade Visual (Marca, Design)
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
