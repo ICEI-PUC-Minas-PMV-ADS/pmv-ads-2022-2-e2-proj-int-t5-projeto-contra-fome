@@ -4,6 +4,11 @@
     <tr>
         <td> </td>
         <td> Persona </td>
+        <td> Persona </td>
+        <td> Persona </td>
+        <td> Persona </td>
+        <td> Persona </td>
+        <td> Persona </td>
     </tr>
     <tr>
         <td></td>
@@ -16,6 +21,78 @@
     </tr>
     <tr>
         <td>O site apresenta os pontos de recebimento das doações com clareza?</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+    </tr>
+    <tr>
+        <td>O site apresenta pontos de recebimento de alimentos próxima a sua residência?</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+    </tr>
+    <tr>
+        <td>O site é amigável, acessível e com fácil navegabilidade?</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+    </tr>
+    <tr>
+        <td>O site é seguro e transparente?</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+    </tr>
+    <tr>
+        <td>O site permite que o usuário realize doações via pix?</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+    </tr>
+    <tr>
+        <td>O site permite que o usuário realize doações com cartão de crédito?</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+    </tr>
+    <tr>
+        <td>O site permite que as instituições editem informações de endereço?</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+    </tr>
+    <tr>
+        <td>O site permite que a instituições realizem cadastros com segurança?</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+    </tr>
+    <tr>
+        <td>O site permite que as instituições gerenciem as doações e retire os valores em dinheiro doado?</td>
         <td>Atende</td>
         <td>Atende</td>
         <td>Atende</td>
