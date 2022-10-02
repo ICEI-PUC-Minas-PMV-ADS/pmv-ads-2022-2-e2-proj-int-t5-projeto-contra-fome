@@ -88,7 +88,7 @@ Os requisitos para a execução para este teste são:
 
 | Teste 5 | Preencher o CEP da instituição |
 | --- | --- |
-| Objetivo do teste	Preencher o CEP do endereço
+| Objetivo do teste | Preencher o CEP do endereço |
 | Caso de sucesso |	Ao digitar este campo o sistema dará prosseguimento ao cadastro. |
 | Caso de insucesso	| Apresentar uma mensagem de erro para que o usuário possa preencher corretamente os dados |
 
@@ -112,7 +112,7 @@ Os requisitos para a execução para este teste são:
 
 | Teste 9 | Preencher os dados da Fundação |
 | --- | --- |
-| Objetivo do teste	Cadastrar fundações parceiras das Instituições |
+| Objetivo do teste	| Cadastrar fundações parceiras das Instituições |
 | Caso de sucesso |	Apresentar mensagem que o cadastro foi realizado com sucesso |
 | Caso de insucesso	| Apresentar uma mensagem de erro para que o usuário possa preencher corretamente os dados |
 
@@ -146,7 +146,7 @@ Os requisitos para a execução para este teste são:
 
 | Teste 2 | Escolha da Instituição |
 | --- | --- |
-| Objetivo do teste	Escolher a instituição que receberá a doação |
+| Objetivo do teste	| Escolher a instituição que receberá a doação |
 | Caso de sucesso |	Ao escolher a quantidade de doação dará prosseguimento ao processo de doação |
 | Caso de insucesso	| Apresentar uma mensagem de erro |
 
