@@ -15,6 +15,7 @@ Os requisitos para a execução para este teste são:
 ## Teste de navegabilidade
 
 | Teste 1 | Navegação pelos templates | 
+| --- | --- |
 | Objetivo do teste | Verificar se os templates, encaminham para a página correta |
 | Caso de sucesso | Ao clicar nos ícones da página, ser encaminhado para a seção correta |
 | Caso de insucesso | Aparecerá uma mensagem de erro |
