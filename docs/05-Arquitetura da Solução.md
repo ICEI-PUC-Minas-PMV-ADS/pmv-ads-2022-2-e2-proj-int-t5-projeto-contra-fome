@@ -10,13 +10,11 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Modelo ER (Projeto Conceitual)
 
-![modelo er](./img/diagrama-er-1.png)
+![modelo er](./img/diagrama-er.png)
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+![projeto base de dados](./img/projeto-base-dados.png)
 
 ## Tecnologias Utilizadas
 
