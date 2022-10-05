@@ -56,17 +56,3 @@ Abaixo, a forma que nosso Kanban está organizado:
 
 ![Kanban-projeto](./img/kanban-project.png)
 
-### Ferramentas
-
-As ferramentas empregadas no projeto são:
-
-- Editor de código: vscode
-- Ferramentas de comunicação: teams e discord
-- Ferramenta para desenho de tela: Figma
-- Criação do documento: Google Docs
-- Gerenciamento do Projeto: Github Projects
-- Repositório do código fonte: Github
-
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
-
-Por se tratar de uma ferramenta de trabalho em equipe, escolhemos o google docs como local de produção do documento. Para gestão do projeto e repositório remoto, escolhemos o GitHub pela integração com a universidade.
