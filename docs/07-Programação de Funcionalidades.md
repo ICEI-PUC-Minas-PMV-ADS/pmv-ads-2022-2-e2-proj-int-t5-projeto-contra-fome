@@ -15,7 +15,7 @@ A tela principal apresenta diversas funcionalidades que estarão descritas separ
 
 ## Visualização da tela de Cadastro 
 
-O Cadastro apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas. Nam página de Cadastro temos estruturas de dados baseada em HMTL e CSS. Exemplo de tela de Cadastro:
+O Cadastro apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas. Na página de Cadastro temos estruturas de dados baseada em HMTL e CSS. Exemplo de tela de Cadastro:
 
 ![tela de cadastro](img/Cadastro.png)
 
