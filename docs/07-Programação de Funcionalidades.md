@@ -1,28 +1,83 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Nesta seção é apresentada a tela de login e cadastro, duas  funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentadas na sequência. 
 
-Implementação do sistema descrita por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos com os artefatos criados (código fonte), deverão apresentadas as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+## Visualização da tela de Login
 
-Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos desenvolvidos.
+A tela principal apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas. na tela de login temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela de Login:
 
-|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+![tela de Login](img/Login.png)
 
-# Instruções de acesso
+### Instruções de acesso 
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+1.	Abra um navegador de Internet e informe a URL  http://127.0.0.1:5500/src/Projeto%20autenticação
+2.	Abrirá a página de login
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+## Visualização da tela de Cadastro 
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+O Cadastro apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, no Cadastro de pet temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Cadastro 
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+![tela de cadastro](img/Cadastro.png)
+
+
+
+### Instruções de acesso 
+
+1.	Abra um navegador de Internet e informe a URL http://127.0.0.1:5500/src/HTML/Cadastro%20de%20Pet.html
+
+
+## Visualização da tela de Perfil
+
+O Perfil apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, no Cadastro de pet temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Perfil:
+
+
+![tela de cadastrodepet](img/ct2.png)
+
+
+
+### Instruções de acesso 
+
+1.	Abra um navegador de Internet e informe a http://127.0.0.1:5500/src/HTML/Perfil.html
+
+
+
+## Visualização da tela de Contatos
+
+A pagina de contatos apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, no Cadastro de pet temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Perfil:
+
+
+![tela de contatos](img/ct6.1.png)
+
+
+
+### Instruções de acesso 
+
+1.	Abra um navegador de Internet e informe a http://127.0.0.1:5500/src/HTML/Contatos.html
+
+
+## Visualização da tela de resultado de pesquisa
+
+A pagina de resultado de pesquisa apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, no Cadastro de pet temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Perfil:
+
+
+![tela de contatos](img/ct5.png)
+
+
+
+### Instruções de acesso 
+
+1.	Abra um navegador de Internet e informe a http://127.0.0.1:5500/src/HTML/Resultado.html
+
+
+## Visualização da tela sobre
+
+A pagina sobre apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas, no Cadastro de pet temos estruturas de dados baseada em HMTL e CSS. Exemplo da tela Perfil:
+
+
+![tela de contatos](img/ct7.png)
+
+
+
+### Instruções de acesso 
+
+1.	Abra um navegador de Internet e informe a http://127.0.0.1:5500/src/HTML/Sobre.html
