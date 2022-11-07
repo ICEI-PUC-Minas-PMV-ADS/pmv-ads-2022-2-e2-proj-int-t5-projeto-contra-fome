@@ -13,7 +13,7 @@
     font-family:'Roboto', sans-serif;
 }
 body{
-    background-image: linear-gradient(to right,var(--cor-padrao),var(--cor-primaria));
+    background-image: linear-gradient(to right,var(--cor-primaria),var(--cor-primaria));
    background-repeat: no-repeat;
    background-size:cover;
    background-attachment: fixed;
@@ -22,7 +22,8 @@ body{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top:100px ;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 .card{
     background-color: var(--cor-quaternaria);
@@ -73,24 +74,7 @@ border-bottom: 3px solid var(--cor-terciaria);
     margin-top: 0;
     color:var(--cor-terciaria);
 }
-button{
-    background-color: transparent;
-    background-color:var(--cor-padrao) ;
-    color:var(--cor-quaternaria);
-    padding: 7px;
-    font-weight: bold;
-    font-size: 16pt;
-    margin-top: 20px;
-    border: var(--cor-terciaria);
-    border-radius:  4px;
-    cursor: pointer;
-    outline: none;
-    transition: all .4s ease-out;
-}
-button:hover{
-   background-color:var(--cor-primaria); 
-   color: white;
-}
+
 .justify-center{
     display: flex;
     justify-content:center;
@@ -134,4 +118,47 @@ a:hover{
     padding: 10px;
     border-radius: 4px;
     display: none;
+    }
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-image: linear-gradient(to right,var(--cor-padrao),var(--cor-padrao));
+        gap: 130px;
+    }
+    .cabecalhoImagem{
+     
+      height: 110px; 
+      width: 200px;  
+    }
+    .cabecalhoMenu{
+        display: flex;
+        gap: 130px;
+    }
+    .btn{
+        justify-content: space-around;
+        border: none;
+        padding: 10px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .btn-sucess{
+        justify-content: space-around;
+        background-image: linear-gradient(to right,var(--cor-quaternaria),var(--cor-quaternaria));
+        outline:  none;
+        color:linear-gradient(to right,var(--cor-primaria),var(--cor-primaria))
+    }
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-image: linear-gradient(to right,var(--cor-padrao),var(--cor-padrao));
+        gap: 130px;
+    }
+    footer button{
+        display:inline-block;
+        padding: 10px;
+        border: none;
+        font-size: 50px;  
+        margin-top: 15px; 
     }
