@@ -124,7 +124,7 @@ a:hover{
         flex-direction: row;
         align-items: center;
         background-image: linear-gradient(to right,var(--cor-padrao),var(--cor-padrao));
-        gap: 130px;
+        gap: 160px;
     }
     .cabecalhoImagem{
      
@@ -133,7 +133,7 @@ a:hover{
     }
     .cabecalhoMenu{
         display: flex;
-        gap: 130px;
+        gap: 160px;
     }
     .btn{
         justify-content: space-around;
@@ -153,7 +153,7 @@ a:hover{
         flex-direction: row;
         align-items: center;
         background-image: linear-gradient(to right,var(--cor-padrao),var(--cor-padrao));
-        gap: 130px;
+        gap: 160px;
     }
     footer button{
         display:inline-block;
@@ -162,3 +162,4 @@ a:hover{
         font-size: 50px;  
         margin-top: 15px; 
     }
+  

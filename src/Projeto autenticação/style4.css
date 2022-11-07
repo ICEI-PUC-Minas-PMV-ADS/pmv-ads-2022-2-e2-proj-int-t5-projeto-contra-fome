@@ -17,7 +17,7 @@
     flex-direction: row;
     align-items: center;
     background-image: linear-gradient(to right,var(--cor-padrao),var(--cor-padrao));
-    gap: 130px;
+    gap: 160px;
 }
 .cabecalhoImagem{
  
@@ -52,7 +52,7 @@ main img{
     flex-direction: row;
     align-items: center;
     background-image: linear-gradient(to right,var(--cor-padrao),var(--cor-padrao));
-    gap: 130px;
+    gap: 160px;
 }
 footer button{
     display:inline-block;
