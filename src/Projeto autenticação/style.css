@@ -55,7 +55,6 @@ a:hover {
 footer {
   position: absolute;
   bottom: 1px;
-  margin-bottom: 5px;
   width: 100%;
 }
 footer button {
@@ -64,6 +63,11 @@ footer button {
   border: none;
   font-size: 50px;
   margin-top: 15px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
 }
 
 .container {
@@ -139,29 +143,24 @@ footer button {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   background-image: linear-gradient(
     to right,
     var(--cor-padrao),
     var(--cor-padrao)
   );
-  gap: 160px;
+  gap: 10px;
 }
 .cabecalhoImagem {
   height: 110px;
   width: 200px;
 }
-.cabecalhoMenu {
-  display: flex;
-  gap: 160px;
-}
+
 .btn {
-  justify-content: space-around;
   border: none;
   padding: 10px;
   text-decoration: none;
   cursor: pointer;
-}
-.btn-sucess {
   justify-content: space-around;
   background-image: linear-gradient(
     to right,
@@ -171,14 +170,24 @@ footer button {
   outline: none;
   color: linear-gradient(to right, var(--cor-primaria), var(--cor-primaria));
 }
+.cabecalho a {
+  margin-right: 20px;
+}
 .rodape {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   background-image: linear-gradient(
     to right,
     var(--cor-padrao),
     var(--cor-padrao)
   );
-  gap: 160px;
+  height: 110px;
+}
+
+main img{
+    width: 50%;
+    display: block;
+    margin:  0 auto;
 }
