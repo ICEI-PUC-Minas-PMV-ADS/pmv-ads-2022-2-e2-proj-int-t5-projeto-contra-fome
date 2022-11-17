@@ -52,11 +52,6 @@ a {
 a:hover {
   color: var(--cor-primaria);
 }
-footer {
-  position: absolute;
-  bottom: 1px;
-  width: 100%;
-}
 footer button {
   display: inline-block;
   padding: 10px;
@@ -79,7 +74,7 @@ nav {
 }
 .card {
   background-color: var(--cor-quaternaria);
-  padding: 30px;
+  padding: 10px;
   border-radius: 4%;
   box-shadow: 3px 3px 1px 0px var(--cor-terciaria);
 }
@@ -184,6 +179,11 @@ nav {
     var(--cor-padrao)
   );
   height: 110px;
+  position: absolute;
+  width: 100%;
+ 
+ 
+ 
 }
 
 main img{
@@ -199,8 +199,8 @@ main img{
 .bodyGerenciar{
   background-image: linear-gradient(
     to right,
-    var(--cor-secundaria),
-    var(--cor-secundaria)
+    var(--cor-quaternaria),
+    var(--cor-quaternaria)
   );
 }
 .h2Ponto{
@@ -220,5 +220,42 @@ margin-left: 150px;
   .h2Valores{
     margin-left: 150px;
   }
+  .botao{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    justify-items: center;
+    background-image: linear-gradient(
+      to right,
+      var(--cor-quaternaria),
+      var(--cor-quaternaria)
+    );
+
+  }
+  .cadastrarCampanha{
+    padding: 10px;
+    justify-content: center;
+    
+  }
+  .lista{
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: xx-large;
+    color:black
+    
+  }
+
+  .btn-styled{
+    font-size: 14px;
+    margin: 8px;
+    padding: 0 10px;
+    line-height: 2;
+
+  }
+
+  
+
+
 
 
