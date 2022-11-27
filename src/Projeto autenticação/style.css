@@ -284,7 +284,3 @@ legend {
     border-radius: 10px;
 }
 
-.labelInput {
-    pointer-events: none;
-    transition: .5s;
-}
