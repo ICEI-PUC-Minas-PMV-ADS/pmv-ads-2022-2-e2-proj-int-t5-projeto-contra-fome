@@ -8,32 +8,56 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="cabecalho">
-      <img
-        class="cabecalhoImagem"
-        src="https://tse4.mm.bing.net/th?id=OIP.rvwQd_ckRwlxOJl03hR4JAAAAA&pid=Api&P=0"
-        alt=""
-      />
-      <nav>
-        <a href="paginaInicial.html" class="btn">Página Inicial</a>
-        <a href="sobre.html" class="btn">Sobre Nós</a>
-        <a href="doacao.html" class="btn">Faça Uma Doção</a>
-      </nav>
-      <a href="index.html" class="btn">Login</a>
-    </header>
-    <main class="container">
-        <!-- 
-            Conteudo do Faça Uma Doção
-            Cole o codigo pronto aqui
-            Para: Gilvimar.
-        -->
-    </main>
-    <footer class="rodape">
-      <nav>
-        <a href="privacidade.html" class="btn">Política de Privacidade</a>
-        <a href="termos.html" class="btn">Termo de Uso</a>
-        <a href="contato.html" class="btn">Entre em Contato com Nós</a>
-      </nav>
-    </footer>
+      <header class="cabecalho">
+          <img class="cabecalhoImagem"
+               src="https://tse4.mm.bing.net/th?id=OIP.rvwQd_ckRwlxOJl03hR4JAAAAA&pid=Api&P=0"
+               alt="" />
+          <nav>
+              <a href="paginaInicial.html" class="btn">Página Inicial</a>
+              <a href="sobre.html" class="btn">Sobre Nós</a>
+              <a href="doacao.html" class="btn">Faça Uma Doção</a>
+          </nav>
+          <a href="index.html" class="btn">Login</a>
+      </header>
+
+  <main class="container">
+     <section class="content">
+         <div class="doacao">
+             
+                  <fieldset>
+                       <legend><b>Faça uma doação</b></legend>
+                           <br>
+                             <div class="form">
+                                  <p><label for="instituicao" class="labelInput">Selecione a instituição</label></p>
+                                  <select>
+                                      <option value="instituição01">Instituição 1</option>
+                                      <option value="instituição02">Instituição 2</option>
+                                      <option value="instituição03">Instituição 3</option>
+                                  </select>
+                             </div>
+         </div>
+
+                  <p>Doar por meio de:</p>
+                  <input type="radio" id="pix" name="pix" value="pix" required>
+                  <label for="pix">Pix</label>
+                  <br>
+                  <input type="radio" id="credito" name="credito" value="credito" required>
+                  <label for="credito">Crédito</label>
+                  <br>
+                  <input type="radio" id="entrega" name="entrega" value="entrega" required>
+                  <label for="entrega">Entregar a doação</label>
+                  <br><br>
+                </fieldset>
+            </div>
+     </section>
+ </main>
+
+      <footer class="rodape">
+          <nav>
+              <a href="privacidade.html" class="btn">Política de Privacidade</a>
+              <a href="termos.html" class="btn">Termo de Uso</a>
+              <a href="contato.html" class="btn">Entre em Contato com Nós</a>
+          </nav>
+      </footer>
   </body>
 </html>
