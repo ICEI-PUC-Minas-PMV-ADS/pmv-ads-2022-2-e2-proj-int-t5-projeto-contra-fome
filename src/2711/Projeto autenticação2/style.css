@@ -134,6 +134,14 @@ nav {
   border-radius: 4px;
   display: none;
 }
+#msgSuccess{
+  text-align: center;
+  color:green;
+  background-color: #bbffbe;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+  }
 .cabecalho {
   display: flex;
   flex-direction: row;
@@ -204,18 +212,21 @@ main img{
   );
 }
 .h2Ponto{
-margin-left: 150px;
+justify-content: center;
+margin-bottom: 10px;
 }
 .h2enderecos{
   margin-left: 150px;
 
 }
 .linkA{
-  margin-left: 150px;
+margin-top: 30px;
+margin-left: 20px;
 }
 .h2Doacao{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 150px;
+
   }
   .h2Valores{
     margin-left: 150px;
@@ -251,6 +262,19 @@ margin-left: 150px;
     margin: 8px;
     padding: 0 10px;
     line-height: 2;
+
+  }
+  .gerenciamento{
+    margin-bottom: 50px;
+    font-size: 70px;
+  }
+  .nova{
+    font-size: 20px;
+    color:royalblue;
+  }
+  .sair{
+    cursor: pointer;
+    font-size: 25px;
 
   }
 

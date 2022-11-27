@@ -43,14 +43,22 @@
             flex:1;
         }
         button.vermelho{
-            background-color:#a00;
+            background-color:rgb(227, 85, 85);
+            font-size: large;
+            cursor: pointer;
+        }
+        button.verde{
+            background-color:rgb(10, 238, 10);
+            font-size: large;
+            cursor: pointer;
+            
         }
 
     </style>
 </head>
 <body page='lista' class="bodyGerenciar">
     <header class="cabecalhoGerenciar">
-        <h1>Gerenciamento</h1>
+        <h1 class="gerenciamento">Gerenciamento</h1>
     </header>
     <main>
         <h2 class="h2Ponto">Campanhas Cadastradas:</h2>    
@@ -62,7 +70,7 @@
                         <th>Nome da Campanha</th>
                         <!--<th>Usuário</th>
                         <th>Fone</th>-->
-                        <th></th> 
+                        <th>Editar ou Deletar</th> 
                     </tr>
 
                 </thead>
@@ -109,16 +117,16 @@
         </form>-->
    
          <section class="linkA">
-            <a  href="CadastroCampanha.html">Adiconar Nova Campanha</a>
+            <a class="nova"  href="CadastroCampanha.html">Adiconar Nova Campanha</a>
         </section>
 
         <h2 class="h2Doacao">Doações:</h2>
-     
+            <h2>...................</h2>
             <h2>...................</h2>
         </section>
         
         <section>
-            <button onclick="sair()">
+            <button class="sair" onclick="sair()">
                 Sair
             </button>
 
@@ -128,7 +136,7 @@
         </section> 
     
         
-        <script src="script3.js"></script>
+        <script src="Gerenciar.js"></script>
        
     </main>
     

@@ -47,6 +47,8 @@ namespace API_mySQL.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCadastroCampanha(int id, CadastroCampanha cadastroCampanha)
         {
+            Console.WriteLine(id);
+            
             if (id != cadastroCampanha.idCampanha)
             {
                 return BadRequest();
