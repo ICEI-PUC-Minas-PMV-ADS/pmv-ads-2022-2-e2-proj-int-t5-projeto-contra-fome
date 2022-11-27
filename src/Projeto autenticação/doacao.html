@@ -21,13 +21,44 @@
       </nav>
       <a href="index.html" class="btn">Login</a>
     </header>
+
+    <body>
     <main class="container">
-        <!-- 
-            Conteudo do Faça Uma Doção
-            Cole o codigo pronto aqui
-            Para: Gilvimar.
-        -->
-    </main>
+        <section class="content">
+          <div class="doacao">
+          <form action="">
+              <fieldset>
+                  <legend><b>Faça uma doação</b></legend>
+                  <br>
+                  <div class="form">
+                    <p><label for="instituicao" class="labelInput">Selecione a instituição</label></p>
+                    <br>
+                      <select>
+                        <option value = "instituição01">Instituição 1</option>
+                        <option value = "instituição02">Instituição 2</option>
+                        <option value = "instituição03">Instituição 3</option>
+                      </select>
+                  </div>
+                </div>
+                <br>
+                  <p>Doar por meio de:</p>
+                  <input type="radio" id="pix" name="forma-de-doacao" value="pix" required>
+                  <label for="pix">Pix</label>
+                  <br>
+                  <input type="radio" id="credito" name="forma-de-doacao" value="credito" required>
+                  <label for="credito">Crédito</label>
+                  <br>
+                  <input type="radio" id="entrega" name="forma-de-doacao" value="entrega" required>
+                  <label for="entrega">Entregar a doação</label>
+                  <br><br>
+                  <br><input class="botao" type="submit" value="Realizar doação"/><br>
+              </fieldset>
+          </form>
+      </div>
+      </section>
+  </main>
+</body>
+
     <footer class="rodape">
       <nav>
         <a href="privacidade.html" class="btn">Política de Privacidade</a>
