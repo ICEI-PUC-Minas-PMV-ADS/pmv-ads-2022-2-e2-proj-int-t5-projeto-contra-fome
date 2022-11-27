@@ -80,7 +80,7 @@ a:hover {
   color: var(--cor-primaria);
 }
 footer {
-  position:static;
+  position:absolute;
   bottom: 1px;
   width: 100%;
 }
