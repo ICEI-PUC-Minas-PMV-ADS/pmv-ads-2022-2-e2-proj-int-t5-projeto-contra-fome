@@ -33,5 +33,26 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 # Cadastre
 <img src="./img/cadastrar.PNG" width="800">
 
+
+# Avaliação: As paginas representam as informações e navegabilidade entre elas
+
+ ## Teste de login 1- 2 – TESTE DE LOGIN
+  
+# Teste1 - Realizar Login  
+<img src="./img/login1.PNG" width="800">
+
+# inserindo dados para login
+
+# usuário logado
+<img src="./img/login3.PNG" width="800">
+
+<img src="./img/ErrodeSenha.PNG" width="800">
+
+# Caso de insucesso 
+
+
+# Teste2 - preencher o cnpj e Senha
+
+
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
