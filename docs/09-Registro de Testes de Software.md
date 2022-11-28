@@ -8,6 +8,11 @@
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
 # Evidências do Teste:
+
+# Navegabilidade Página Inicial
+<img src="./img/Inicial2.png" width="800">
+
+# Navegabilidade sobre nós
 <img src="./img/Inicial2.png" width="800">
 
 > **Links Úteis**:
