@@ -201,6 +201,7 @@ nav {
   margin-right: 20px;
 }
 .rodape {
+  position: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
