@@ -1,3 +1,4 @@
+
 let RazaoSocial = document.querySelector("#RazaoSocial")
 let NomeFantasia = document.querySelector("#NomeFantasia")
 let CNPJ = document.querySelector("#CNPJ")

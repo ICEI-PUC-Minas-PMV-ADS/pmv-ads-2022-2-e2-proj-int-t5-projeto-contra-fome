@@ -234,12 +234,18 @@ main img{
 .h2Ponto{
 margin-left: 150px;
 }
+.h3Ponto{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  }
 .h2enderecos{
   margin-left: 150px;
 
 }
 .linkA{
-  margin-left: 150px;
+  margin-top: 20px;
+  margin-left: 100px;
 }
 .h2Doacao{
   margin-top: 100px;
@@ -256,6 +262,10 @@ margin-left: 150px;
     border-radius: 4px;
     display: none;
     }
+
+
+      
+   
 
 
   
