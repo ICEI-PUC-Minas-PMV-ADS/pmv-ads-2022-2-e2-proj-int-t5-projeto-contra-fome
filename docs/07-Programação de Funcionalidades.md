@@ -17,8 +17,14 @@ A tela principal apresenta diversas funcionalidades que estarão descritas separ
 
 O Cadastro apresenta diversas funcionalidades que estarão descritas separadamente nas próximas visualizações de telas. Na página de Cadastro temos estruturas de dados baseada em HMTL e CSS. Exemplo de tela de Cadastro:
 
-![tela de cadastro](img/Cadastro.png)
+![tela de cadastro](img/cadastrar.PNG)
 
 ### Instruções de acesso 
+
+1.	Abra um navegador de Internet e informe a URL http://127.0.0.1:5500/src/Projeto%20autenticação
+
+![tela de cadastro](img/login3.PNG)
+
+### Gerenciamento de Campanhas Cadastradas
 
 1.	Abra um navegador de Internet e informe a URL http://127.0.0.1:5500/src/Projeto%20autenticação
