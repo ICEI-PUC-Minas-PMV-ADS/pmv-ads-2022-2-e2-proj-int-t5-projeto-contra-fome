@@ -36,7 +36,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 # Avaliação: As paginas representam as informações e navegabilidade entre elas
 
- ## Teste de login 1- 2 – TESTE DE LOGIN
+## Teste de login 1- 2 – TESTE DE LOGIN
   
 # Teste1 - Realizar Login  
 <img src="./img/login1.PNG" width="800">
@@ -46,13 +46,16 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 # usuário logado
 <img src="./img/login3.PNG" width="800">
 
+# Caso de insucesso 
 <img src="./img/ErrodeSenha.PNG" width="800">
 
-# Caso de insucesso 
+## Teste2 - Teste de Cadastro de Instituição
 
+# Preencher os dados da instituição
+Caso de sucesso:
+<img src="./img/Cadastrook.png" width="800">
 
-# Teste2 - preencher o cnpj e Senha
-
-
+Caso de insucesso:
+<img src="./img/ErrodeCadastro.PNG" width="800">
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
