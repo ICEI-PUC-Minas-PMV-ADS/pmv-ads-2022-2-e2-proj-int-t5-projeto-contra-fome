@@ -52,6 +52,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 ## Teste2 - Teste de Cadastro de Instituição
 
 # Preencher os dados da instituição
+
 Caso de sucesso:
 <img src="./img/Cadastrook.png" width="800">
 
