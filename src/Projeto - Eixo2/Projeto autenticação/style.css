@@ -28,7 +28,7 @@ h1 {
   margin-bottom: 30px;
   color: var(--cor-terciaria);
 }
-.titulo-dois{
+.titulo-dois {
   font-size: 15pt;
   text-align: left;
   margin-right: 12px;
@@ -37,11 +37,11 @@ h1 {
 }
 
 .titulo-tres {
-    font-size: 12pt;
-    text-align: left;
-    margin-right: 12px;
-    margin-left: 12px;
-    color: var(--cor-terciaria);
+  font-size: 12pt;
+  text-align: left;
+  margin-right: 12px;
+  margin-left: 12px;
+  color: var(--cor-terciaria);
 }
 hr {
   margin-top: 10%;
@@ -55,14 +55,14 @@ p {
 }
 
 .text {
-    justify-content: space-around;
-    width: 99%;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    text-align: left;
-    font-size: 10pt;
+  justify-content: space-around;
+  width: 99%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 10pt;
 }
 
 section.nao-tem-conta {
@@ -78,11 +78,6 @@ a {
 }
 a:hover {
   color: var(--cor-primaria);
-}
-footer {
-  position: absolute;
-  bottom: 1px;
-  width: 100%;
 }
 footer button {
   display: inline-block;
@@ -103,6 +98,14 @@ nav {
   width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.sobre p{
+  text-align:justify;
+  margin: 10px 25px;
+}
+.form{
+  display:flex;
+  justify-content: center;
 }
 .card {
   background-color: var(--cor-quaternaria);
@@ -201,7 +204,6 @@ nav {
   margin-right: 20px;
 }
 .rodape {
-  position: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -214,62 +216,50 @@ nav {
   height: 110px;
 }
 
-main img{
-    width: 50%;
-    display: block;
-    margin:  0 auto;
+main img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
-.cabecalhoGerenciar{
+.cabecalhoGerenciar {
   margin-top: 10px;
 }
 
-.bodyGerenciar{
+.bodyGerenciar {
   background-image: linear-gradient(
     to right,
     var(--cor-secundaria),
     var(--cor-secundaria)
   );
 }
-.h2Ponto{
-margin-left: 150px;
+.h2Ponto {
+  margin-left: 150px;
 }
-.h3Ponto{
+.h3Ponto {
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 150px;
-  }
-.h2enderecos{
-  margin-left: 150px;
-
 }
-.linkA{
+.h2enderecos {
+  margin-left: 150px;
+}
+.linkA {
   margin-top: 20px;
   margin-left: 100px;
 }
-.h2Doacao{
+.h2Doacao {
   margin-top: 100px;
   margin-left: 150px;
-  }
-  .h2Valores{
-    margin-left: 150px;
-  }
-  #msgSuccess{
-    text-align: center;
-    color:green;
-    background-color: #bbffbe;
-    padding: 10px;
-    border-radius: 4px;
-    display: none;
-    }
-
-
-      
-   
-
-
-  
-
-
-
-
+}
+.h2Valores {
+  margin-left: 150px;
+}
+#msgSuccess {
+  text-align: center;
+  color: green;
+  background-color: #bbffbe;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
