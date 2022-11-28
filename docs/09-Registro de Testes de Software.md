@@ -57,6 +57,4 @@ Caso de sucesso:
 
 Caso de insucesso:
 <img src="./img/ErrodeCadastro.PNG" width="800">
-#
 
-S
