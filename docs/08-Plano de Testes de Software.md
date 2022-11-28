@@ -25,20 +25,15 @@ Os requisitos para a execução para este teste são:
 | Teste 1 |	Realizar Login |
 | --- | --- |
 | Objetivo do teste | Realizar o login da Instituição |
-| Caso de sucesso |	Clicando no botão Login, aparecerá as opções para a realização do cadastro |
-| Caso de insucesso | Aparecerá uma mensagem de erro | 
+| Caso de sucesso |	Clicando no botão Login, aparecerá a pagina entrar para  o usuario inserir o cnpj e senha e efetuar o login |
+| Caso de insucesso | Aparecerá uma mensagem de cnpj e senha ou invalidos, se o usuario nao estiver cadastrado no banco de dados ou a senha e cnpj estiver digitado errado  | 
 
-| Teste 2 | Preencher o email de cadastro |
+| Teste 2 | Preencher  o CNPJ e Senha |
 | --- | --- |
-| Objetivo do teste	| Cadastrar o email para acesso ao sistema pelas as Instituições.
-| Caso de sucesso |	Ao sair do campo de inserção do email, o sistema dará prosseguimento ao cadastro. |
-| Caso de insucesso | Apresentará uma mensagem de erro, indicando que o email foi errado. |
+| Objetivo do teste	| Preencher o CNPJ e senha para fazer o cadastro
+| Caso de sucesso |	ao preencher o CNPJ e senha, o usuario consegue logar. |
+| Caso de insucesso | Apresentará uma mensagem de erro, indicando Cnpj e senha são invalidos. |
 
-| Teste 3 | Preencher a senha |
-| --- | --- |
-| Objetivo do teste | Cadastrar a senha para acesso ao sistema pelas Instituições |
-| Caso de sucesso |	Ao sair do campo de inserção de senha, o sistema dará a mensagem de sucesso no cadastro |
-| Caso de insucesso | Apresentará mensagem de erro, informando que a senha inserida não está cadastrada | 
 
 ## Teste de Cadastro da Instituição 
 
