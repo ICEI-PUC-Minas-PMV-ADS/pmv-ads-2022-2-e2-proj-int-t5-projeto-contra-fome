@@ -52,10 +52,11 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 ## Teste2 - Teste de Cadastro de Instituição
 
 # Preencher os dados da instituição
-Caso de sucesso:
+
+#Caso de sucesso:
 <img src="./img/Cadastrook.png" width="800">
 
-Caso de insucesso:
+#Caso de insucesso:
 <img src="./img/ErrodeCadastro.PNG" width="800">
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
