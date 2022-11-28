@@ -27,4 +27,4 @@ O Cadastro apresenta diversas funcionalidades que estarão descritas separadamen
 
 ### Gerenciamento de Campanhas Cadastradas
 
-1.	Abra um navegador de Internet e informe a URL http://127.0.0.1:5500/src/Projeto%20autenticação
+1.	Abra um navegador de Internet e informe a URL http://127.0.0.1:5500/Gerenciar.html
