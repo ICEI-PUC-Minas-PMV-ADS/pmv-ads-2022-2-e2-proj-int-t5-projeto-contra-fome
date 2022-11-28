@@ -39,8 +39,8 @@ Os requisitos para a execução para este teste são:
 
 | Teste 1 | Preencher os dados da Instituição |
 | --- | --- |
-| Objetivo do teste | Cadastrar o nome da Instituição |
-| Caso de sucesso |	Ao digitar este campo o sistema dará prosseguimento ao cadastro. |
+| Objetivo do teste | Cadastrar os dados da Instituição |
+| Caso de sucesso |	Ao digitar estes campos o sistema dará prosseguimento ao cadastro. |
 | Caso de insucesso | Apresentará mensagem de erro |
 
 
