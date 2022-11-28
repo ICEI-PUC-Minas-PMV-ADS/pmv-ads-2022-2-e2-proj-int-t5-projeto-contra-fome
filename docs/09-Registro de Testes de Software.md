@@ -57,5 +57,4 @@ Caso de sucesso:
 
 Caso de insucesso:
 <img src="./img/ErrodeCadastro.PNG" width="800">
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+
