@@ -28,7 +28,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 <img src="./img/EntreemContato.PNG" width="800">
 
 # Login
-<img src="./img/login.PNG" width="800">
+<img src="./img/login.png" width="800">
 
 # Cadastre
 <img src="./img/cadastrar.PNG" width="800">
