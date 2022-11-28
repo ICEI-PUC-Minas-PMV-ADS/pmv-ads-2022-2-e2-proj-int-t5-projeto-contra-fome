@@ -28,7 +28,15 @@
         <td>Atende</td>
         <td>Atende</td>
     </tr>
-
+    <tr>
+        <td>O site apresenta pontos de recebimento de alimentos próxima a sua residência?</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+    </tr>
     <tr>
         <td>O site é amigável, acessível e com fácil navegabilidade?</td>
         <td>Atende</td>
@@ -47,8 +55,24 @@
         <td>Atende</td>
         <td>Atende</td>
     </tr>
- 
- 
+    <tr>
+        <td>O site permite que o usuário realize doações via pix?</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+    </tr>
+    <tr>
+        <td>O site permite que o usuário realize doações com cartão de crédito?</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+        <td>Atende</td>
+    </tr>
     <tr>
         <td>O site permite que as instituições editem informações de endereço?</td>
         <td>Atende</td>
