@@ -25,8 +25,8 @@ Os requisitos para a execução para este teste são:
 | Teste 1 |	Realizar Login |
 | --- | --- |
 | Objetivo do teste | Realizar o login da Instituição |
-| Caso de sucesso |	Clicando no botão Login, aparecerá as opções para a realização do cadastro |
-| Caso de insucesso | Aparecerá uma mensagem de erro | 
+| Caso de sucesso |	Clicando no botão Login, aparecerá a pagina entrar para  o usuario inserir o cnpj e senha e efetuar o login |
+| Caso de insucesso | Aparecerá uma mensagem de cnpj e senha ou invalidos, se o usuario nao estiver cadastrado no banco de dados ou a senha e cnpj estiver digitado errado  | 
 
 | Teste 2 | Preencher  o CNPJ e Senha |
 | --- | --- |
