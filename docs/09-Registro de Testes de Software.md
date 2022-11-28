@@ -13,25 +13,25 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 <img src="./img/Inicial2.png" width="800">
 
 # Navegabilidade sobre nós
-<img src="./img/Sobrenos.png" width="800">
+<img src="./img/Sobrenos.PNG" width="800">
 
 # Faça uma Doação
-<img src="./img/Doacao.png" width="800">
+<img src="./img/Doacao.PNG" width="800">
 
 # Política de Privacidade
-<img src="./img/PoliticaPrivacidade.png" width="800">
+<img src="./img/PoliticaPrivacidade.PNG" width="800">
 
 # Termo de Uso
-<img src="./img/termo.png" width="800">
+<img src="./img/termo.PNG" width="800">
 
 # Entre em Contato com Nós
-<img src="./img/EntreemContato.png" width="800">
+<img src="./img/EntreemContato.PNG" width="800">
 
 # Login
-<img src="./img/login.png" width="800">
+<img src="./img/login.PNG" width="800">
 
 # Cadastre
-<img src="./img/cadastrar.png" width="800">
+<img src="./img/cadastrar.PNG" width="800">
 
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
