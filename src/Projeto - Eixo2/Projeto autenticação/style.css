@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 :root {
   --cor-primaria: #eb2d14;
   --cor-secundaria: #c8c8c8;
@@ -12,23 +13,24 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
 body {
-  background-image: linear-gradient(
-    to right,
-    var(--cor-secundaria),
-    var(--cor-secundaria)
-  );
+  background-image: linear-gradient(to right,
+      var(--cor-secundaria),
+      var(--cor-secundaria));
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
+
 h1 {
   font-size: 35pt;
   text-align: center;
   margin-bottom: 30px;
   color: var(--cor-terciaria);
 }
-.titulo-dois{
+
+.titulo-dois {
   font-size: 15pt;
   text-align: left;
   margin-right: 12px;
@@ -37,17 +39,19 @@ h1 {
 }
 
 .titulo-tres {
-    font-size: 12pt;
-    text-align: left;
-    margin-right: 12px;
-    margin-left: 12px;
-    color: var(--cor-terciaria);
+  font-size: 12pt;
+  text-align: left;
+  margin-right: 12px;
+  margin-left: 12px;
+  color: var(--cor-terciaria);
 }
+
 hr {
   margin-top: 10%;
   margin-bottom: 10%;
   width: 60%;
 }
+
 p {
   color: var(--cor-terciaria);
   font-size: 14pt;
@@ -55,14 +59,14 @@ p {
 }
 
 .text {
-    justify-content: space-around;
-    width: 99%;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    text-align: left;
-    font-size: 10pt;
+  justify-content: space-around;
+  width: 99%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 10pt;
 }
 
 section.nao-tem-conta {
@@ -70,20 +74,24 @@ section.nao-tem-conta {
   flex-direction: column;
   align-items: center;
 }
+
 a {
   color: var(--cor-padrao);
   font-weight: bold;
   text-decoration: none;
   transition: all 0.4s ease-out;
 }
+
 a:hover {
   color: var(--cor-primaria);
 }
+
 footer {
   position: absolute;
   bottom: 1px;
   width: 100%;
 }
+
 footer button {
   display: inline-block;
   padding: 10px;
@@ -91,6 +99,7 @@ footer button {
   font-size: 50px;
   margin-top: 15px;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -104,12 +113,14 @@ nav {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .card {
   background-color: var(--cor-quaternaria);
   padding: 30px;
   border-radius: 4%;
   box-shadow: 3px 3px 1px 0px var(--cor-terciaria);
 }
+
 .label-float input {
   width: 100%;
   padding: 5px 5px;
@@ -123,15 +134,18 @@ nav {
   transition: all 0.3s ease-out;
   border-radius: 0;
 }
+
 .label-float {
   position: relative;
   padding-top: 13px;
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 .label-float input:focus {
   border-bottom: 3px solid var(--cor-terciaria);
 }
+
 .label-float Label {
   color: var(--cor-padrao);
   pointer-events: none;
@@ -141,16 +155,19 @@ nav {
   margin-top: 13px;
   transition: all 0.3s ease-out;
 }
-.label-float input:focus + label,
-.label-float input:valid + label {
+
+.label-float input:focus+label,
+.label-float input:valid+label {
   font-size: 13px;
   margin-top: 0;
   color: var(--cor-terciaria);
 }
+
 .justify-center {
   display: flex;
   justify-content: center;
 }
+
 .fa-eye {
   position: absolute;
   top: 20px;
@@ -158,6 +175,7 @@ nav {
   cursor: pointer;
   color: var(--cor-terciaria);
 }
+
 #msgError {
   text-align: center;
   color: var(--cor-terciaria);
@@ -166,18 +184,18 @@ nav {
   border-radius: 4px;
   display: none;
 }
+
 .cabecalho {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-image: linear-gradient(
-    to right,
-    var(--cor-padrao),
-    var(--cor-padrao)
-  );
+  background-image: linear-gradient(to right,
+      var(--cor-padrao),
+      var(--cor-padrao));
   gap: 10px;
 }
+
 .cabecalhoImagem {
   height: 110px;
   width: 200px;
@@ -189,87 +207,87 @@ nav {
   text-decoration: none;
   cursor: pointer;
   justify-content: space-around;
-  background-image: linear-gradient(
-    to right,
-    var(--cor-quaternaria),
-    var(--cor-quaternaria)
-  );
+  background-image: linear-gradient(to right,
+      var(--cor-quaternaria),
+      var(--cor-quaternaria));
   outline: none;
   color: linear-gradient(to right, var(--cor-primaria), var(--cor-primaria));
 }
+
 .cabecalho a {
   margin-right: 20px;
 }
+
 .rodape {
   position: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(
-    to right,
-    var(--cor-padrao),
-    var(--cor-padrao)
-  );
+  background-image: linear-gradient(to right,
+      var(--cor-padrao),
+      var(--cor-padrao));
   height: 110px;
 }
 
-main img{
-    width: 50%;
-    display: block;
-    margin:  0 auto;
+main img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
-.cabecalhoGerenciar{
+.cabecalhoGerenciar {
   margin-top: 10px;
 }
 
-.bodyGerenciar{
-  background-image: linear-gradient(
-    to right,
-    var(--cor-secundaria),
-    var(--cor-secundaria)
-  );
+.bodyGerenciar {
+  background-image: linear-gradient(to right,
+      var(--cor-secundaria),
+      var(--cor-secundaria));
 }
-.h2Ponto{
-margin-left: 150px;
+
+.h2Ponto {
+  margin-left: 150px;
 }
-.h3Ponto{
+
+.h3Ponto {
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 150px;
-  }
-.h2enderecos{
+}
+
+.h2enderecos {
   margin-left: 150px;
 
 }
-.linkA{
+
+.linkA {
   margin-top: 20px;
   margin-left: 100px;
 }
-.h2Doacao{
+
+.h2Doacao {
   margin-top: 100px;
   margin-left: 150px;
-  }
-  .h2Valores{
-    margin-left: 150px;
-  }
-  #msgSuccess{
-    text-align: center;
-    color:green;
-    background-color: #bbffbe;
-    padding: 10px;
-    border-radius: 4px;
-    display: none;
-    }
+}
 
+.h2Valores {
+  margin-left: 150px;
+}
 
-      
-   
+#msgSuccess {
+  text-align: center;
+  color: green;
+  background-color: #bbffbe;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
 
-
-  
-
-
-
-
+#msgacesso {
+  text-align: center;
+  color: orange;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}

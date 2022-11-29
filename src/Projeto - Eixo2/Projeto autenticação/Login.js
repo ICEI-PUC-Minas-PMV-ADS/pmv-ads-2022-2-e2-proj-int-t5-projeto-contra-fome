@@ -1,3 +1,4 @@
+localStorage.removeItem('usuario')
 let btnlog = document.querySelector('.fa-eye')
 btnlog.addEventListener('click',()=>{
 let inputSenha =document.querySelector('#senhalog')
