@@ -24,8 +24,24 @@ function atualizar() {
   let estado = userlogado.estado
   let pais = userlogado.pais
   let pix = userlogado.pix
+  if (pix==false) {
+    Pix.value = "Não"
+  }else{
+    Pix.value = "Sim"
+  }
   let cartaoDeCredito = userlogado.cartaoDeCredito
+  if (cartaoDeCredito==false) {
+    CartaoDeCredito.value = "Não"
+  }else{
+    CartaoDeCredito.value = "Sim"
+  }
   let receberFisico = userlogado.receberFisico
+  if (receberFisico==false) {
+    ReceberFisico.value = "Não"
+  }else{
+    ReceberFisico.value = "Sim"
+  }
+ 
   NomeDaOng.value = nome
   descricaoDaCampanha.value = descricao
   NomeDaCampanha.value = campanha
@@ -35,10 +51,6 @@ function atualizar() {
   cidade.value = cidade2
   Estado.value = estado
   Pais.value = pais
-  Pix.value = pix
-  CartaoDeCredito.value = cartaoDeCredito
-  ReceberFisico.value = receberFisico
-
 }
 window.addEventListener('load', () => {
 
@@ -57,9 +69,18 @@ async function salvar() {
   let campanha = JSON.parse(localStorage.getItem('edit'));
   let idCampanha= campanha.idCampanha;
   let pix = false;
+  let cartaoDeCredito = false;
+  let receberFisico = false;
   if (document.getElementById('Pix').value != null) {
      pix = document.getElementById('Pix').value === 'sim' || document.getElementById('Pix').value === 'Sim' ? true : false; 
-  }
+  };
+  if (document.getElementById('CartaoDeCredito').value != null) {
+    cartaoDeCredito = document.getElementById('CartaoDeCredito').value === 'sim' || document.getElementById('CartaoDeCredito').value === 'Sim' ? true : false; 
+  };
+ 
+  if (document.getElementById('ReceberFisico').value != null) {
+    receberFisico = document.getElementById('ReceberFisico').value === 'sim' || document.getElementById('ReceberFisico').value === 'Sim' ? true : false; 
+  };
   const postData = {
     idCampanha: campanha.idCampanha,
     nomeDaOng: document.getElementById('NomeDaOng').value || $('NomeDaOng').val(),
@@ -72,8 +93,8 @@ async function salvar() {
     estado: document.getElementById('Estado').value || $('Estado').val(),
     pais:  document.getElementById('Pais').value || $('Pais').val(),
     pix: pix,
-    cartaoDeCredito: true,
-    receberFisico: true,
+    cartaoDeCredito: cartaoDeCredito,
+    receberFisico: receberFisico,
     cadastroCodigo: userlogado.codigo
   };
  

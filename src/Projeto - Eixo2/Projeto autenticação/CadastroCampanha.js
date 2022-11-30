@@ -10,11 +10,24 @@ async function cadastrar(){
     let cidade = document.getElementById('cidade').value || $('cidade').val();
     let estado = document.getElementById('Estado').value || $('Estado').val();
     let pais = document.getElementById('Pais').value || $('Pais').val();
-    let pix = document.getElementById('Pix').value || $('Pix').val();
-    let cartaoDeCredito = document.getElementById('CartaoDeCredito').value || $('CartaoDeCredito').val();
-    let receberFisico = document.getElementById('ReceberFisico').value || $('ReceberFisico').val();
+    // let pix = document.getElementById('Pix').value || $('Pix').val();
+    // let cartaoDeCredito = document.getElementById('CartaoDeCredito').value || $('CartaoDeCredito').val();
+    // let receberFisico = document.getElementById('ReceberFisico').value || $('ReceberFisico').val();
     let userlogado = JSON.parse(localStorage.getItem('usuario'));
     let cadastroCodigo = userlogado.codigo;
+    let pix = false;
+    let cartaoDeCredito = false;
+    let receberFisico = false;
+    if (document.getElementById('Pix').value != null) {
+       pix = document.getElementById('Pix').value === 'sim' || document.getElementById('Pix').value === 'Sim' ? true : false; 
+    };
+    if (document.getElementById('CartaoDeCredito').value != null) {
+      cartaoDeCredito = document.getElementById('CartaoDeCredito').value === 'sim' || document.getElementById('CartaoDeCredito').value === 'Sim' ? true : false; 
+    };
+   
+    if (document.getElementById('ReceberFisico').value != null) {
+      receberFisico = document.getElementById('ReceberFisico').value === 'sim' || document.getElementById('ReceberFisico').value === 'Sim' ? true : false; 
+    };
 
     http.post(`api/CadastroCampanhas`, {
         nomeDaOng,
