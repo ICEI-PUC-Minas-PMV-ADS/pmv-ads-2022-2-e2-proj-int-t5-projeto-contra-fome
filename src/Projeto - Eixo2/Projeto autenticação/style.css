@@ -291,3 +291,27 @@ main img {
   border-radius: 4px;
   display: none;
 }
+.informacao {
+ font-size: 25px;
+ text-align: center;
+}
+.descri {
+  font-size: 30px;
+  color: #9e281a;
+  font-weight:bolder;
+
+ }
+ .informacaoDaCampanha{
+  font-size: 80px;
+  margin-bottom: 10px;
+ }
+ .sairinfo{
+  margin-left: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  color: linear-gradient(to right, var(--cor-primaria), var(--cor-primaria));
+  font-size: large;
+  cursor: pointer;
+  font-weight:bolder;
+
+ }
