@@ -45,7 +45,9 @@ namespace API_mySQL.Models
         [Column("ReceberFisico")]
         public bool? ReceberFisico { get; set; }
 
-        public int CadastroCodigo { get; set; }  
+        public int CadastroCodigo { get; set; }
+
+        public List<Doacao>? Doacao { get; set; }
 
 
     }
