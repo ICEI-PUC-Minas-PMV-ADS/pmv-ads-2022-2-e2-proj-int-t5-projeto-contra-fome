@@ -13,9 +13,6 @@ namespace API_mySQL.Data
         public DbSet<Cadastro> Cadastro { get; set; }
 
         public DbSet<CadastroCampanha> CadastroCampanha { get; set; }
-
-        public DbSet<Doacao> Doacao { get; set; }
-
     }   
     
 }
