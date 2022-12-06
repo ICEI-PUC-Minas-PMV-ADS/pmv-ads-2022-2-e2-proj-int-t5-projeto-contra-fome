@@ -4,48 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
     <title>Faça Uma Doção</title>
-    <script>
-        const http = axios.create({
-            baseURL: 'https://localhost:7297/',
-            timeout: 1000
-        });
-    </script>
-   
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <br>
-    <br>
-    <button class="sairinfo" onclick="sair()">
-        Voltar
-    </button>
+    <header class="cabecalho">
+        <img class="cabecalhoImagem"
+             src="https://tse4.mm.bing.net/th?id=OIP.rvwQd_ckRwlxOJl03hR4JAAAAA&pid=Api&P=0"
+             alt="" />
+        <nav>
+            <a href="paginaInicial.html" class="btn">Página Inicial</a>
+            <a href="sobre.html" class="btn">Sobre Nós</a>
+            <a href="doacao2.html" class="btn">Faça Uma Doção</a>
+        </nav>
+        <a href="Login.html" class="btn">Login</a>
+    </header>
+
     <main class="container">
-       
         <section class="content">
-            <h1 class="facaDoacao">Faça sua Doação</h1>
-           
+            <div class="doacao">
+
+                <fieldset>
+                    <legend><b>Faça uma doação</b></legend>
+                    <br>
+                    <div class="form">
+                        <p><label for="instituicao" class="labelInput">Selecione a instituição</label></p>
+                        <br>
+                        <select>
+                            <option value="instituição01">Instituição 1</option>
+                            <option value="instituição02">Instituição 2</option>
+                            <option value="instituição03">Instituição 3</option>
+                        </select>
+                    </div>
+            </div>
             <br>
-            <h2 class="doar">Doar por meio de</h2>
+            <p>Doar por meio de:</p>
+            <input type="radio" id="pix" name="forma-de-doacao" value="pix" required>
+            <label for="pix">Pix</label>
             <br>
-            <input class ="inputdoacao" type="radio" id="doacaopix" name="forma-de-doacao" value="pix">
-            <label class="doacao" id="doacaopix" for="doacaopix">Pix</label>
+            <input type="radio" id="credito" name="forma-de-doacao" value="credito" required>
+            <label for="credito">Crédito</label>
             <br>
-            <input class="inputcc" type="radio" id="credito" name="forma-de-doacao" value="credito">
-            <label class="labelcc" for="credito">Cartão de Crédito</label>
-            <br>
-            <br>
-            <label class="labelvalor" for="credito">Valor(Apenas valores inteiros)</label>
-            <input class="textvalor" type="text" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*?)\..*/g, '$1');" id="valor" name="forma-de-doacao">
-            <br>
-            <br>
-            <br>
-            <input class="botao" onclick="final()" type="submit" value="Realizar Doação"/>
-          
+            <input type="radio" id="entrega" name="forma-de-doacao" value="entrega" required>
+            <label for="entrega">Entregar a doação</label>
+            <br><br>
+            <br><input class="botao" type="submit" value="Realizar doação" /><br>
+            </fieldset>
+            </div>
         </section>
     </main>
-    <script src="doacao2.js"></script>
+
+    <footer class="rodape">
+        <nav>
+            <a href="privacidade.html" class="btn">Política de Privacidade</a>
+            <a href="termo.html" class="btn">Termo de Uso</a>
+            <a href="contato.html" class="btn">Entre em Contato com Nós</a>
+        </nav>
+    </footer>
 </body>
 </html>

@@ -142,33 +142,6 @@ namespace API_mySQL.Migrations
                     b.ToTable("cadastroCampanha");
                 });
 
-            modelBuilder.Entity("API_mySQL.Models.Doacao", b =>
-                {
-                    b.Property<int>("idDoacao")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<int?>("CadastroCampanhaidCampanha")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("Valor")
-                        .HasColumnType("int")
-                        .HasColumnName("Valor");
-
-                    b.Property<int>("idCampanha")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("tipoDoacao")
-                        .HasColumnType("int")
-                        .HasColumnName("tipoDoacao");
-
-                    b.HasKey("idDoacao");
-
-                    b.HasIndex("CadastroCampanhaidCampanha");
-
-                    b.ToTable("Doacao");
-                });
-
             modelBuilder.Entity("API_mySQL.Models.CadastroCampanha", b =>
                 {
                     b.HasOne("API_mySQL.Models.Cadastro", null)
@@ -178,21 +151,9 @@ namespace API_mySQL.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("API_mySQL.Models.Doacao", b =>
-                {
-                    b.HasOne("API_mySQL.Models.CadastroCampanha", null)
-                        .WithMany("Doacao")
-                        .HasForeignKey("CadastroCampanhaidCampanha");
-                });
-
             modelBuilder.Entity("API_mySQL.Models.Cadastro", b =>
                 {
                     b.Navigation("CadastroCampanhas");
-                });
-
-            modelBuilder.Entity("API_mySQL.Models.CadastroCampanha", b =>
-                {
-                    b.Navigation("Doacao");
                 });
 #pragma warning restore 612, 618
         }
