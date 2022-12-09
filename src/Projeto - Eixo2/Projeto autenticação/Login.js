@@ -11,6 +11,8 @@ if(inputSenha.getAttribute('type') == 'password'){
 
 
 async function entrar(){
+    msgCarregando.setAttribute('style','display:block')
+    msgCarregando.innerHTML = '<strong>Verificando Acesso</strong>'
     let cnpj = document.getElementById('cnpj').value
     let senha = document.getElementById('senhalog').value
  
@@ -25,13 +27,17 @@ async function entrar(){
     console.log({resultado})
 
 
-    if(!resultado?.codigo)
+    if(!resultado?.codigo){
+       
+        location.href = '/Login.html'
         return alert("Cnpj e/ou senha inválido(s)")
-
+    }
+    
+        
+    
     localStorage.setItem('usuario', JSON.stringify(resultado))
 
-
-      
+    
 
     location.href = '/Gerenciar.html'  
 }

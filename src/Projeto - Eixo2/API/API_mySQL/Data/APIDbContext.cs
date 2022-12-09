@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API_mySQL.Data
 {
-    public class APIDbContext: DbContext
+    public class APIDbContext : DbContext
     {
         public APIDbContext(DbContextOptions<APIDbContext> options) : base(options)
         {
@@ -13,7 +13,10 @@ namespace API_mySQL.Data
         public DbSet<Cadastro> Cadastro { get; set; }
 
         public DbSet<CadastroCampanha> CadastroCampanha { get; set; }
-    }   
-    
+
+        public DbSet<Doacao> Doacao { get; set; }
+
+    }
+
 }
 

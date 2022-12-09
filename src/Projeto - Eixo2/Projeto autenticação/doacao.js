@@ -1,26 +1,4 @@
-async function put() {
 
-    const response = await fetch(`https://localhost:7297/api/CadastroCampanhas/`, {
-
-        method: 'GET',
-        headers: {
-            'Content-type': 'application/json'
-        }
-    });
-
-    const resData = await response.json();
-    localStorage.setItem('usuario', JSON.stringify(resData))
-
-
-    //return resData;
-
-
-}
-
-async function detalhe(id) {
-    await buscar(id)
-
-}
 
 
 async function buscar(id) {
@@ -38,6 +16,37 @@ async function buscar(id) {
     // Return response data 
     location.href = 'detalhe.html'
 }
+async function buscar2(id) {
+
+    const response = await fetch(`https://localhost:7297/api/CadastroCampanhas/${id}`, {
+
+        method: 'GET',
+        headers: {
+            'Content-type': 'application/json'
+        }
+    });
+
+    const resData = await response.json();
+    localStorage.setItem('buscar', JSON.stringify(resData))
+    // Return response data 
+    location.href = 'doacao2.html'
+}
+
+async function put() {
+
+    const response = await fetch(`https://localhost:7297/api/CadastroCampanhas/`, {
+
+        method: 'GET',
+        headers: {
+            'Content-type': 'application/json'
+        }
+    });
+
+    const resData = await response.json();
+    localStorage.setItem('usuario', JSON.stringify(resData))
+
+
+}
 
 async function final(){
     let userlogado
@@ -45,10 +54,7 @@ async function final(){
         console.log('teste')
 
         userlogado = JSON.parse(localStorage.getItem('usuario'))
-        // userlogado.forEach(element => {
-        //     //alert(element.idCampanha)
-        // });
-
+    
     }
 
     const tbody = document.getElementById('listaRegistrosBody')
@@ -61,8 +67,8 @@ async function final(){
                     <td>${usuario.nomeDaOng}</td>
                     <td>${usuario.nomeDaCampanha}</td>
                     <td>
-                            <button class='verde'  onclick="detalhe(${usuario.idCampanha})">Informações</button>
-                            <button class='vermelho' onclick="delet()">Doar</button>
+                            <button class='verde'  onclick="detalhe(${usuario.idCampanha})">Detalhes</button>
+                            <button class='vermelho' onclick="doar(${usuario.idCampanha})">Doar</button>
                     </td>
                 </tr>`
         }).join('')
@@ -71,10 +77,21 @@ async function final(){
 }
 
 window.addEventListener('load', async () => {
-   
-    await put()
-    await final()
+    msgCarregando.setAttribute('style','display:block')
+    msgCarregando.innerHTML = '<strong>Carregando Campanhas</strong>'
+     await put()
+     await final()
+     msgCarregando.setAttribute('style','display:none')
+     msgCarregando.innerHTML = '<strong>Carregando Campanhas</strong>'
 
     
 })
+async function detalhe(id) {
+    await buscar(id)
+
+}
+async function doar(id) {
+    await buscar2(id)
+
+}
 

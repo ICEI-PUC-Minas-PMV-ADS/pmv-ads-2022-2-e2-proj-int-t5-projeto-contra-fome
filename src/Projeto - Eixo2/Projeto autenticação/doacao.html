@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Faça Uma Doção</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
+    <script>
+      const http = axios.create({
+        baseURL: "https://localhost:7297/"
+        //timeout: 100000,
+      });
+    </script>
     <style>
       #listaRegistros{display: none;}
        #CadastroRegistro{
@@ -71,7 +79,7 @@
     </header>
     <main>
       <h2 class="h3Ponto">CAMPANHAS:</h2>    
-
+      <section id="msgCarregando"></section>
       <div id="listaRegistros">
           <table>
               <thead>
@@ -80,7 +88,7 @@
                       <th>Nome da Campanha</th>
                       <!--<th>Usuário</th>
                       <th>Fone</th>-->
-                      <th>Informações sobre a Campanha e Realizar Doações</th> 
+                      <th>Detalhes e Doação</th> 
                   </tr>
 
               </thead>
