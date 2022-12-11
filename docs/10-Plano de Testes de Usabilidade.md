@@ -22,7 +22,7 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 |   | 7) 5º desafio: editar as informações da campanha cadastrada.| 
 |   | 8) 6º desafio: A instituição deve visualizar o relatório com todas as campanhas cadastradas.|
 |   | 9) 7º desafio: O usuário deve realizar uma doação através do PIX ou Cartão de crédito|
-|   |10) 8º desafio: Instituição deve verificar as doações que foram recebidas |
+|   |10) 8º desafio: A Instituição deve verificar as doações que foram recebidas |
 
 
 |   | Itens a serem avaliados pós teste |
