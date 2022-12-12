@@ -27,14 +27,14 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 
 |   | Itens a serem avaliados pós teste |
 |---|---------| 
-|   | 1) Escala de dificuldade da tarefa (de muito difícil a muito fácil).|
-|   | 2) Expectativa x realidade: escala de dificuldade antes e depois de fazer a tarefa (de muito difícil a muito fácil).|
-|   | 3) Escala de insatisfação (de muito satisfeito a muito insatisfeito).|
-|   | 4) Em geral como avalia a aplicação? (escala de 1 a 5 onde 1 é péssimo e 5 excelente). |
-|   | 5) Navegar na aplicação foi tranquilo? (escala de 1 a 5 onde 1 é difícil e 5 fácil).|
-|   | 6) Recomendaria a nossa aplicação? (escala de 1 a 5 onde 1 é muito improvável e 5 muito provável).|
-|   | 7) Problemas observados (questão aberta).|
-|   | 8) Tempo de execução para concluir a tarefa (questão aberta).|
+|   | 1) Escala de insatisfação (de muito satisfeito a muito insatisfeito).|
+|   | 2) O site é amigável, acessível e com fácil navegabilidade? (escala de 1 a 5 onde 1 é péssimo e 5 excelente). |
+|   | 3) O site permite que o usuário realize doações via pix? (escala de 1 a 5 onde 1 é difícil e 5 fácil).|
+|   | 4) O site permite que o usuário realize doações com cartão de crédito? (escala de 1 a 5 onde 1 é muito improvável e 5 muito provável).|
+|   | 5) O site permite que as instituições editem informações de endereço?(escala de 1 a 5 onde 1 é muito improvável e 5 muito provável).|
+|   | 6) O site permite que as instituições realizem cadastros das campanhas? (escala de 1 a 5 onde 1 é muito improvável e 5 muito provável).|
+|   | 7) O site permite que as instituições gerenciem as doações, visualizando desta forma, as doações recebidas?(escala de 1 a 5 onde 1 é muito improvável e 5 muito provável).|
+
 
 
 Para esta etapa do projeto, os testes serão realizados nas principais funcionalidades do sistema: login, cadastro de instituição, cadastro de empresa, cadastro de produto.
