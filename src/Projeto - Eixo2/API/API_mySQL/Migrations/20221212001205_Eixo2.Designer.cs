@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_mySQL.Migrations
 {
     [DbContext(typeof(APIDbContext))]
-    [Migration("20221210173110_projeto")]
-    partial class projeto
+    [Migration("20221212001205_Eixo2")]
+    partial class Eixo2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

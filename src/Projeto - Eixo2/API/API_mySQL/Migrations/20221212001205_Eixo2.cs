@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace API_mySQL.Migrations
 {
-    public partial class projeto : Migration
+    public partial class Eixo2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

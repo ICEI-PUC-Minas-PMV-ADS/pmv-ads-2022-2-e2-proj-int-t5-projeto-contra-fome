@@ -142,6 +142,31 @@ namespace API_mySQL.Migrations
                     b.ToTable("cadastroCampanha");
                 });
 
+            modelBuilder.Entity("API_mySQL.Models.Doacao", b =>
+                {
+                    b.Property<int>("idDoacao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("CadastroCampanhaidCampanha")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Valor")
+                        .HasColumnType("int")
+                        .HasColumnName("Valor");
+
+                    b.Property<int>("idCampanha")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("tipoDoacao")
+                        .HasColumnType("int")
+                        .HasColumnName("tipoDoacao");
+
+                    b.HasKey("idDoacao");
+
+                    b.ToTable("Doacao");
+                });
+
             modelBuilder.Entity("API_mySQL.Models.CadastroCampanha", b =>
                 {
                     b.HasOne("API_mySQL.Models.Cadastro", null)
