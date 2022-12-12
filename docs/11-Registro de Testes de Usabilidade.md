@@ -10,4 +10,14 @@ Os relatórios abaixo fazem o registro dos participantes e indicam a satisfaçã
 
 <img src="./img/1.1.png" width="100%">
 
+## Tarefas:
 
+Os dados abaixo informam as respostas dos participantes.
+
+<img src="./img/1.2.png" width="100%">
+<img src="./img/1.3.png" width="100%">
+<img src="./img/1.4.png" width="100%">
+<img src="./img/1.5.png" width="100%">
+<img src="./img/1.6.png" width="100%">
+<img src="./img/1.7.png" width="100%">
+<img src="./img/1.8.png" width="100%">
