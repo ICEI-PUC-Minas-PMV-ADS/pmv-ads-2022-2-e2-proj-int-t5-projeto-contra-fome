@@ -8,5 +8,6 @@ O formulário serve para medir a usabilidade do site com informações sinceras 
 Os relatórios abaixo fazem o registro dos participantes e indicam a satisfação dos usuários, em cada tarefa. 
 **Registro dos Usuários que participaram do teste:**
 
-![image](img/1.png)
+<img src="./img/1.png" width="100%">
+
 
