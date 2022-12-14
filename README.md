@@ -57,6 +57,8 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 
 # Apresentação
 
-<li><a href="http://julio002-001-site1.btempurl.com/index.html> Site Projeto Contra Fome </a></li>
+A apresentação do Projeto Contra Fome encontra-se nos links abaixo:
+
+<a href="http://julio002-001-site1.btempurl.com/index.html"> Site Projeto Contra Fome </a>
 
 <li><a href="https://drive.google.com/file/d/15UBcqBta_e7Axwj-2iIa692nagsDIwqD/view?usp=sharing"> Apresentação da solução final</a></li>
