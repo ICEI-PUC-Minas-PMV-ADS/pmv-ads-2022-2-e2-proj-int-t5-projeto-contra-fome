@@ -7,11 +7,11 @@ function sair() {
 let userlogado = JSON.parse(localStorage.getItem('buscar'));
 let pi = userlogado.pix
 let cc = userlogado.cartaoDeCredito
-
-
+let local = userlogado.receberFisico
 
 mudar(pi, cc)
 retornar(pi, cc)
+retornar2(pi, cc,local)
 
 function mudar(pi, cc) {
     if (pi === false) {
@@ -28,12 +28,23 @@ function mudar(pi, cc) {
 }
 
 function retornar(pi, cc) {
-    if (pi === false && cc === false) {
+    if (pi === false && cc === false && local===true) {
         document.querySelector(".botao").style.display = "none"
         document.querySelector(".labelvalor").style.display = "none"
         document.querySelector(".textvalor").style.display = "none"
         let doar = document.querySelector(".doar")
         doar.innerHTML = `Olá, essa campanha aceita apenas doação física(no local)`
+    
+    }
+
+}
+function retornar2(pi, cc,local) {
+    if (pi === false && cc === false && local===false) {
+        document.querySelector(".botao").style.display = "none"
+        document.querySelector(".labelvalor").style.display = "none"
+        document.querySelector(".textvalor").style.display = "none"
+        let doar = document.querySelector(".doar")
+        doar.innerHTML = `Olá, essa campanha não aceita mais nenhum tipo de doação`
     
     }
 

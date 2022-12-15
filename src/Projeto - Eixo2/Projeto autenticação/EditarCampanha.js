@@ -111,7 +111,7 @@ async function salvar() {
   //window.location.href='Gerenciar.html'
   
   try {
-    const response = await fetch(`https://localhost:7297/api/CadastroCampanhas/${idCampanha}`, {
+    const response = await fetch(`http://joao92-001-site1.btempurl.com/api/CadastroCampanhas/${idCampanha}`, {
       method: "put",
       headers: {
         "Content-Type": "application/json"

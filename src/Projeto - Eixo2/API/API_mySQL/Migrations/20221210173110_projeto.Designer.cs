@@ -3,6 +3,7 @@ using System;
 using API_mySQL.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_mySQL.Migrations
 {
     [DbContext(typeof(APIDbContext))]
-    partial class APIDbContextModelSnapshot : ModelSnapshot
+    [Migration("20221210173110_projeto")]
+    partial class projeto
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -140,6 +142,31 @@ namespace API_mySQL.Migrations
                     b.HasIndex("CadastroCodigo");
 
                     b.ToTable("cadastroCampanha");
+                });
+
+            modelBuilder.Entity("API_mySQL.Models.Doacao", b =>
+                {
+                    b.Property<int>("idDoacao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("CadastroCampanhaidCampanha")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Valor")
+                        .HasColumnType("int")
+                        .HasColumnName("Valor");
+
+                    b.Property<int>("idCampanha")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("tipoDoacao")
+                        .HasColumnType("int")
+                        .HasColumnName("tipoDoacao");
+
+                    b.HasKey("idDoacao");
+
+                    b.ToTable("Doacao");
                 });
 
             modelBuilder.Entity("API_mySQL.Models.CadastroCampanha", b =>

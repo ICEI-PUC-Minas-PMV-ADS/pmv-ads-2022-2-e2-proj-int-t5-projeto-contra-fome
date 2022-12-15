@@ -60,7 +60,7 @@ function gerenci(id) {
 
 async function put(id) {
 
-  const response = await fetch(`https://localhost:7297/api/CadastroCampanhas/${id}`, {
+  const response = await fetch(`http://joao92-001-site1.btempurl.com/api/CadastroCampanhas/${id}`, {
 
     method: 'GET',
     headers: {
@@ -91,13 +91,13 @@ function delet(id, id2) {
 async function delet2(id, id2) {
  
 
-  const response = await fetch(`https://localhost:7297/api/Doacao/${id}`, {
+  const response = await fetch(`http://joao92-001-site1.btempurl.com/api/Doacao/${id}`, {
     method: 'DELETE',
     headers: {
       'Content-type': 'application/json'
     }
   });
-  const response2 = await fetch(`https://localhost:7297/api/Cadastro/${id2}`, {
+  const response2 = await fetch(`http://joao92-001-site1.btempurl.com/api/Cadastro/${id2}`, {
     method: 'GET',
     headers: {
       'Content-type': 'application/json'
@@ -116,15 +116,16 @@ async function delet2(id, id2) {
 // Return response data 
 // //return resData;
  async function doacao() {
-  const response3 = await fetch(`https://localhost:7297/api/Doacao/DoacaoPorCampanha/${userlogado.cadastroCampanhas[0].idCampanha}`, {
+  const response3 = await fetch(`http://joao92-001-site1.btempurl.com/api/Doacao/DoacaoPorCampanha/${userlogado.cadastroCampanhas[0].idCampanha}`, {
     method: 'GET',
     headers: {
       'Content-type': 'application/json'
      }
    });
+  
   const resData = await response3.json();
   console.log(resData)
- //alert(userlogado.cadastroCampanhas.idCampanha)
+ 
  localStorage.setItem('doacao', JSON.stringify(resData));
    desenhar2(resData)
  } 

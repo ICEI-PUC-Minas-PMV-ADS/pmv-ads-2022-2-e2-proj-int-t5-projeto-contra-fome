@@ -3,7 +3,7 @@
 
 async function buscar(id) {
 
-    const response = await fetch(`https://localhost:7297/api/CadastroCampanhas/${id}`, {
+    const response = await fetch(`http://joao92-001-site1.btempurl.com/api/CadastroCampanhas/${id}`, {
 
         method: 'GET',
         headers: {
@@ -18,7 +18,7 @@ async function buscar(id) {
 }
 async function buscar2(id) {
 
-    const response = await fetch(`https://localhost:7297/api/CadastroCampanhas/${id}`, {
+    const response = await fetch(`http://joao92-001-site1.btempurl.com/api/CadastroCampanhas/${id}`, {
 
         method: 'GET',
         headers: {
@@ -34,7 +34,7 @@ async function buscar2(id) {
 
 async function put() {
 
-    const response = await fetch(`https://localhost:7297/api/CadastroCampanhas/`, {
+    const response = await fetch(`http://joao92-001-site1.btempurl.com/api/CadastroCampanhas/`, {
 
         method: 'GET',
         headers: {

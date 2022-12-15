@@ -46,9 +46,14 @@ namespace API_mySQL.Controllers
         [HttpGet("DoacaoPorCampanha/{id}")]
         public async Task<List<dynamic>> GetDoacaoPorCampanha(int id)
         {
-
+            List<dynamic> result = new List<dynamic>();
             var doacao = await _context.Doacao.ToListAsync();
+
             var cadastroCampanha = await _context.CadastroCampanha.ToListAsync();
+            var validacao = doacao.FirstOrDefault(d => d.CadastroCampanhaidCampanha == id);
+
+            if (validacao == null || string.IsNullOrEmpty(validacao.ToString()))
+                return result.ToList<dynamic>();
 
             var innerJoin =  doacao.Join(
                                  cadastroCampanha,
@@ -64,9 +69,7 @@ namespace API_mySQL.Controllers
                                 }).OrderByDescending(x => x.CadastroCampanhaidCampanha == id) ;
 
             var query = innerJoin.ToArray().ToList();
-
-            List<dynamic> result = new List<dynamic>();
-
+         
             foreach (var item in query)
                 if (item.CadastroCodigo == query[0].CadastroCodigo)
                     result.Add(item);

@@ -21,7 +21,8 @@ let validcnpj = false
 let labeldate = document.querySelector("#labeldate")
 let validdate = false
 
-
+let labelTelefone = document.querySelector("#labelTelefone")
+let validtelefone = false
 
 let labelNomeFantasia = document.querySelector("#labelNomeFantasia")
 let validNomeFantasia = false
@@ -33,19 +34,18 @@ let validconfirmesenha = false
 let msgError = document.querySelector("#msgError")
 let msgSuccess = document.querySelector("#msgSuccess")
 
-// RazaoSocial.addEventListener('keyup', () => {
-//     if (RazaoSocial.value.length <= 5) {
-//         labelRazaoSocial.setAttribute('style', 'color:red')
-//         labelRazaoSocial.innerHTML = 'Razao Social *Insira no mínimo 6 letras'
-//         RazaoSocial.setAttribute('style', 'border-color:red')
-//         validRazaoSocial = false
-//     } else {
-//         labelRazaoSocial.setAttribute('style', 'color:green')
-//         labelRazaoSocial.innerHTML = 'Razão Social'
-//         RazaoSocial.setAttribute('style', 'border-color:green')
-//         validRazaoSocial = true
-//     }
-// })
+Telefone.addEventListener('keyup', () => {
+     if (Telefone.value.length != 8) {
+         labelTelefone.setAttribute('style', 'color:red')
+         labelTelefone.innerHTML = 'Favor, insira apenas o número do telefone'
+         Telefone.setAttribute('style', 'border-color:red')
+         validtelefone = false
+     } else {
+        labelTelefone.setAttribute('style', 'color:green')
+        labelTelefone.innerHTML = 'Telefone'
+        Telefone.setAttribute('style', 'border-color:green')
+        validtelefone = true
+     } })
 // RazaoSocial.addEventListener('keyup', () => {
 //     if (RazaoSocial.value.length == "") {
 //         labelRazaoSocial.setAttribute('style', 'color:9e281a')
@@ -206,7 +206,7 @@ async function cadastrar() {
     // fetch('https://localhost:7272/WeatherForecast')
     //.then((response) => response.json())
     //.then((data) => console.log(data));
-    if (validconfirmesenha == false || RazaoSocial.value==""|| NomeFantasia.value==""|| Fundacao.value=="" || Endereco.value=="" || Cidade.value==""|| CNPJ.value=="" || Estado.value==""|| CEP.value=="" || Pais.value=="" || Telefone.value=="" || Email.value=="") {
+    if (validconfirmesenha == false || validtelefone==false || RazaoSocial.value==""|| NomeFantasia.value==""|| Fundacao.value=="" || Endereco.value=="" || Cidade.value==""|| CNPJ.value=="" || Estado.value==""|| CEP.value=="" || Pais.value=="" || Telefone.value=="" || Email.value=="") {
 
         alert("Exitem campus vazios ou com informações erradas")
 
