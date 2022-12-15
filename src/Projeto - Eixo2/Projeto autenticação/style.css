@@ -15,9 +15,11 @@
 }
 
 body {
-  background-image: linear-gradient(to right,
-      var(--cor-secundaria),
-      var(--cor-secundaria));
+  background-image: linear-gradient(
+    to right,
+    var(--cor-secundaria),
+    var(--cor-secundaria)
+  );
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -74,7 +76,6 @@ section.nao-tem-conta {
   flex-direction: column;
   align-items: center;
 }
-
 a {
   color: var(--cor-padrao);
   font-weight: bold;
@@ -157,8 +158,8 @@ nav {
   transition: all 0.3s ease-out;
 }
 
-.label-float input:focus+label,
-.label-float input:valid+label {
+.label-float input:focus + label,
+.label-float input:valid + label {
   font-size: 13px;
   margin-top: 0;
   color: var(--cor-terciaria);
@@ -191,9 +192,11 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-image: linear-gradient(to right,
-      var(--cor-padrao),
-      var(--cor-padrao));
+  background-image: linear-gradient(
+    to right,
+    var(--cor-padrao),
+    var(--cor-padrao)
+  );
   gap: 10px;
 }
 
@@ -208,9 +211,11 @@ nav {
   text-decoration: none;
   cursor: pointer;
   justify-content: space-around;
-  background-image: linear-gradient(to right,
-      var(--cor-quaternaria),
-      var(--cor-quaternaria));
+  background-image: linear-gradient(
+    to right,
+    var(--cor-quaternaria),
+    var(--cor-quaternaria)
+  );
   outline: none;
   color: linear-gradient(to right, var(--cor-primaria), var(--cor-primaria));
 }
@@ -225,9 +230,11 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to right,
-      var(--cor-padrao),
-      var(--cor-padrao));
+  background-image: linear-gradient(
+    to right,
+    var(--cor-padrao),
+    var(--cor-padrao)
+  );
   height: 50px;
 }
 
@@ -242,9 +249,11 @@ main img {
 }
 
 .bodyGerenciar {
-  background-image: linear-gradient(to right,
-      var(--cor-secundaria),
-      var(--cor-secundaria));
+  background-image: linear-gradient(
+    to right,
+    var(--cor-secundaria),
+    var(--cor-secundaria)
+  );
 }
 
 .h2Ponto {
@@ -259,7 +268,6 @@ main img {
 
 .h2enderecos {
   margin-left: 150px;
-
 }
 
 .linkA {
@@ -294,56 +302,96 @@ main img {
   display: none;
 }
 .informacao {
- font-size: 25px;
- text-align: center;
+  font-size: 25px;
+  text-align: center;
 }
 .descri {
   font-size: 30px;
   color: #9e281a;
-  font-weight:bolder;
-
- }
- .informacaoDaCampanha{
+  font-weight: bolder;
+}
+.informacaoDaCampanha {
   font-size: 80px;
   margin-bottom: 10px;
- }
- .sairinfo{
+}
+.sairinfo {
   margin-left: 20px;
   text-decoration: none;
   cursor: pointer;
   color: linear-gradient(to right, var(--cor-primaria), var(--cor-primaria));
   font-size: large;
   cursor: pointer;
-  font-weight:bolder;
-
- }
-.container{
-margin-top: 0px;
+  font-weight: bolder;
+}
+.container {
+  margin-top: 0px;
 }
 
-.facaDoacao{
- font-size: 80px;
-  }
-  .logado{
-    text-align: left;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-  }
-  .sair{
-    text-align: left;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-  }
+.facaDoacao {
+  font-size: 80px;
+}
+.logado {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.sair {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
 
-  #msgCarregando {
-    text-align: center;
-    color: black;
-    background-color: blueviolet;
-    padding: 10px;
-    border-radius: 4px;
+#msgCarregando {
+  text-align: center;
+  color: black;
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+.teste {
+  width: 800px !important;
+}
+.desktop {
+  display: block;
+  /* ou inline, inline-block */
+}
+
+.mobile {
+  display: none;
+}
+@media (max-width: 800px) {
+  a.btn {
+    padding: 10px 5px;
+    border-radius: 10%;
+    background-image: none;
+  }
+  .cabecalho nav {
+    display: flex;
+    gap: 2px;
+    //max-width:10px;
+  }
+  .cabecalho a {
+    margin: 0;
+  }
+  .cabecalho img {
     display: none;
   }
- 
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    /* ou inline, inline-block */
+  }
+  .box {
+    width: 896px;
+    height: 414;
+  }
+  .teste {
+    left: -210px;
+  }
+}
