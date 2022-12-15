@@ -359,7 +359,13 @@ main img {
   display: block;
   /* ou inline, inline-block */
 }
-
+button {
+  font-weight:bold;
+  font-size:20px;
+  border-radius: 10px;
+  min-height: 30px;
+  min-width: 150px;
+}
 .mobile {
   display: none;
 }
@@ -394,4 +400,35 @@ main img {
   .teste {
     left: -210px;
   }
+  .card {
+    max-width: 300px;
+  }
+  .label-float input {
+    min-width: 250px;
+  }
+  .informacaoDaCampanha{
+    font-size:20px;
+  }
+  .informacao label{
+    font-size:15px;
+  }
+  .sairinfo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    //font-size:10px;
+  }
+
+  .content label{
+    font-size:20px;
+  }
+  .content input{
+    font-weight:bold;
+    font-size:20px;
+  }
+  .content .btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+ 
 }
