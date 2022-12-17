@@ -18,13 +18,14 @@
     vertical-align: middle;
     background-position: 10% 20%;
     position: fixed;
+    height: 100%;
   }
   
   .teste{
     width: 900px;
     position: absolute;
     right: 20%;
-    padding-top: 50px;
+    padding-top: 150px;
     position: fixed;
 
   }
